@@ -73,7 +73,7 @@ sudo brew services start httpd
 ```
 
 ### 3.2. Getting the host
-If you are running locally on your mac, the hostname is just `localhost`.
+If you are running locally on your mac, the hostname is just `localhost`. For local hosting, the url will be `http://localhost:8080/`.
 
 ### 3.3. Access the web server
 Open a browser and type the appropriate url into the address bar. You should then get to a page that says "**It works!**" (for AWS there may be some additional info). If you have trouble accessing the server, you can try checking your firewall settings and disabling any VPNs or proxies to make sure traffic to localhost is allowed.
