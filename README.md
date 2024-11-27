@@ -71,6 +71,10 @@ Starting up the web server will provide a localhost page to show that apache2 is
 ```
 sudo brew services start httpd
 ```
+If that doesn't work, try 
+```
+/opt/homebrew/bin/httpd -k start
+```
 
 ### 3.2. Getting the host
 If you are running locally on your mac, the hostname is just `localhost`. For local hosting, the url will be `http://localhost:8080/`.
