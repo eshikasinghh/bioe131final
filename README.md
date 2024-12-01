@@ -119,65 +119,58 @@ sudo chown -R $(whoami) $APACHE_ROOT/jbrowse2
 ```
 
 ### 3.6. Test your jbrowse install
-In your browser, now type in `http://yourhost/jbrowse2/`, where yourhost is either localhost or the IP address from earlier. Now you should see the words "**It worked!**" with a green box underneath saying "JBrowse 2 is installed." with some additional details. 
+In your browser, now type in `http://yourhost/jbrowse2/`, where yourhost is either localhost or the IP address from earlier. For local hosting, the url will be `http://localhost:8080/jbrowse2/` Now you should see the words "**It worked!**" with a green box underneath saying "JBrowse 2 is installed." with some additional details. 
 
-## 4. Load and process test data
+## 4. Load and process Influenza A data and genome annotations from 2022
 ### 4.1. Download and process reference genome
-Make sure you are in the temporary folder you created, then download the human genome in fasta format. This is the biggest file you'll be downloading, and may take 30 min or so on AWS with the lowest tier of download speeds.
+Make sure you are in the temporary folder you created. The following links may update periodically, so follow these steps below yourself if the given wget commands don't work:
+
+This is where we are pulling our data from: `https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_039338855.1/`.  Open this link, and click on FTP. Copy Paste the URL from the new FTP site. It should look similar to this: `https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/338/855/GCA_039338855.1_ASM3933885v1/`. In the below wget commands, copy paste the fna.gz `GCA_039338855.1_ASM3933885v1_genomic.fna.gz` and gff.gz `GCA_039338855.1_ASM3933885v1_genomic.gff.gz` portions to the end of the FTP URL. It should look like the commands below. Run both wget commands. 
+```
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/338/855/GCA_039338855.1_ASM3933885v1/GCA_039338855.1_ASM3933885v1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/338/855/GCA_039338855.1_ASM3933885v1/GCA_039338855.1_ASM3933885v1_genomic.gff.gz
+```
+
+Unzip the gzipped reference genome, rename it, and index it. This will allow jbrowse to rapidly access any part of the reference just by coordinate. If the following commands don't work, here is how you do it yourself. `ls` in your tmp directory and you should see the fna.gz file that you just added. Copy paste that into the `gunzip` command. Then, `ls` again and you should see a `.fna` file. Copy paste that file and the `mv` command will use that and add the `flu2022.fa` name after. 
 
 ```
-export FASTA_ROOT=https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens
-wget $FASTA_ROOT/dna/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
-```
-
-Unzip the gzipped reference genome, rename it, and index it. This will allow jbrowse to rapidly access any part of the reference just by coordinate.
-
-```
-gunzip Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
-mv Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa hg38.fa
-samtools faidx hg38.fa
+gunzip GCA_039388855.1_ASM393885v1_genomic.fna.gz
+mv GCA_039388855.1_ASM393885v1_genomic.fna flu2022.fa
+samtools faidx flu2022.fa
 ```
 
 ### 4.3. Load genome into jbrowse
 
 ```
-jbrowse add-assembly hg38.fa --out $APACHE_ROOT/jbrowse2 --load copy
+jbrowse add-assembly flu2022.fa --out $APACHE_ROOT/jbrowse2 --load copy
 ```
 
-## 4.4. Download and process genome annotations
+## 4.4. Process genome annotations
 
-Still in the temporary folder, download ENSEMBLE genome annotations in the GFF3 format. 
+Still in the tmp folder, run the following command. The links used may update periodically, so follow these steps below yourself if the given gunzip command doesn't work: `ls` in the tmp folder and you will see a `.gff.gz` file. Copy paste that after the gunzip command.
+
 
 ```
-export GFF_ROOT=https://ftp.ensembl.org/pub/release-110/gff3/homo_sapiens
-wget $GFF_ROOT/Homo_sapiens.GRCh38.110.chr.gff3.gz
-gunzip Homo_sapiens.GRCh38.110.chr.gff3.gz
+gunzip GCA_039388855.1_ASM393885v1_genomic.gff.gz
 ```
 
 Use jbrowse to sort the annotations. jbrowse sort-gff sorts the GFF3 by refName (first column) and start position (fourth column), while making sure to preserve the header lines at the top of the file (which start with “#”). We then compress the GFF with bgzip (block gzip, which zips files into little blocks for rapid access), and index with tabix. The tabix command outputs a file named genes.gff.gz.tbi in the same directory, and we then refer to “genes.gff.gz” as a “tabix indexed GFF3 file”.
 
+The links used may update periodically, so follow these steps below yourself if the given `sort-gff` command doesn't work: Use the same file as the previous command and remove the `.gz`. Copy paste that after the sort-gff command.
+
 ```
-jbrowse sort-gff Homo_sapiens.GRCh38.110.chr.gff3 > genes.gff
-bgzip genes.gff
-tabix genes.gff.gz
+jbrowse sort-gff GCA_039388855.1_ASM393885v1_genomic.gff > flu2022.gff
+bgzip flu2022.gff
+tabix flu2022.gff.gz
 ```
 
 ### 4.5. Load annotation track into jbrowse
 
 ```
-jbrowse add-track genes.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy
+jbrowse add-track flu2022.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu2022
 ```
 
-### 4.6. Index for search-by-gene
-
-Run the “jbrowse text-index” command to allow users to search by gene name within JBrowse 2.
-
-In the temporary work directory, run the following command.
-
-```
-jbrowse text-index --out $APACHE_ROOT/jbrowse2
-```
 
 ## 5.0 Use your genome browser to explore a gene of interest
 ### 5.1. Launch JBrowse2
-Open `http://yourhost/jbrowse2/` again in your web browser. There should now be several options in the main menu. Follow the guide in the "Launch the JBrowse 2 application and search for a gene in the linear genome view" section of https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cpz1.1120 to navigate to the gene search and try browsing a few genes.
+Open `http://yourhost/jbrowse2/` again in your web browser. For local hosting, the url will be `http://localhost:8080/jbrowse2`.There should now be several options in the main menu. Search for a gene in the "linear genome view" section, and you will see our flu2022, flu2021, and flu2018 as dropdown options to select.
