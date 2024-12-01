@@ -170,7 +170,104 @@ tabix flu2022.gff.gz
 jbrowse add-track flu2022.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu2022
 ```
 
+## 5. Load and process Influenza A data and genome annotations from 2021
+### 5.1. Download and process reference genome
+Make sure you are in the temporary folder you created. The following links may update periodically, so follow these steps below yourself if the given wget commands don't work:
 
-## 5.0 Use your genome browser to explore a gene of interest
-### 5.1. Launch JBrowse2
+This is where we are pulling our data from: `https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_039230675.1/`.  Open this link, and click on FTP. Copy Paste the URL from the new FTP site. It should look similar to this: `https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/230/675/GCA_039230675.1_ASM3923067v1/`. In the below wget commands, copy paste the fna.gz `GCA_039230675.1_ASM3923067v1_genomic.fna.gz` and gff.gz `GCA_039230675.1_ASM3923067v1_genomic.gff.gz` portions to the end of the FTP URL. It should look like the commands below. Run both wget commands. 
+```
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/230/675/GCA_039230675.1_ASM3923067v1/GCA_039230675.1_ASM3923067v1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/230/675/GCA_039230675.1_ASM3923067v1/GCA_039230675.1_ASM3923067v1_genomic.gff.gz
+```
+
+Unzip the gzipped reference genome, rename it, and index it. This will allow jbrowse to rapidly access any part of the reference just by coordinate. If the following commands don't work, here is how you do it yourself. `ls` in your tmp directory and you should see the fna.gz file that you just added. Copy paste that into the `gunzip` command. Then, `ls` again and you should see a `.fna` file. Copy paste that file and the `mv` command will use that and add the `flu2021.fa` name after. 
+
+```
+gunzip GCA_039230675.1_ASM3923067v1_genomic.fna.gz
+mv GCA_039230675.1_ASM3923067v1_genomic.fna flu2021.fa
+samtools faidx flu2021.fa
+```
+
+### 5.3. Load genome into jbrowse
+
+```
+jbrowse add-assembly flu2021.fa --out $APACHE_ROOT/jbrowse2 --load copy
+```
+
+## 5.4. Process genome annotations
+
+Still in the tmp folder, run the following command. The links used may update periodically, so follow these steps below yourself if the given gunzip command doesn't work: `ls` in the tmp folder and you will see a `.gff.gz` file. Copy paste that after the gunzip command.
+
+
+```
+gunzip GCA_039230675.1_ASM3923067v1_genomic.gff.gz
+```
+
+Use jbrowse to sort the annotations. jbrowse sort-gff sorts the GFF3 by refName (first column) and start position (fourth column), while making sure to preserve the header lines at the top of the file (which start with “#”). We then compress the GFF with bgzip (block gzip, which zips files into little blocks for rapid access), and index with tabix. The tabix command outputs a file named genes.gff.gz.tbi in the same directory, and we then refer to “genes.gff.gz” as a “tabix indexed GFF3 file”.
+
+The links used may update periodically, so follow these steps below yourself if the given `sort-gff` command doesn't work: Use the same file as the previous command and remove the `.gz`. Copy paste that after the sort-gff command.
+
+```
+jbrowse sort-gff GCA_039230675.1_ASM3923067v1_genomic.gff > flu2021.gff
+bgzip flu2021.gff
+tabix flu2021.gff.gz
+```
+
+### 5.5. Load annotation track into jbrowse
+
+```
+jbrowse add-track flu2021.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu2021
+```
+
+## 6. Load and process Influenza A data and genome annotations from 2018
+### 6.1. Download and process reference genome
+Make sure you are in the temporary folder you created. The following links may update periodically, so follow these steps below yourself if the given wget commands don't work:
+
+This is where we are pulling our data from: `https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_039050005.1/`.  Open this link, and click on FTP. Copy Paste the URL from the new FTP site. It should look similar to this: `https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/050/005/GCA_039050005.1_ASM3905000v1/`. In the below wget commands, copy paste the fna.gz `GCA_039050005.1_ASM3905000v1_genomic.fna.gz` and gff.gz `GCA_039050005.1_ASM3905000v1_genomic.gff.gz` portions to the end of the FTP URL. It should look like the commands below. Run both wget commands. 
+```
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/050/005/GCA_039050005.1_ASM3905000v1/GCA_039050005.1_ASM3905000v1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/039/050/005/GCA_039050005.1_ASM3905000v1/GCA_039050005.1_ASM3905000v1_genomic.gff.gz
+```
+
+Unzip the gzipped reference genome, rename it, and index it. This will allow jbrowse to rapidly access any part of the reference just by coordinate. If the following commands don't work, here is how you do it yourself. `ls` in your tmp directory and you should see the fna.gz file that you just added. Copy paste that into the `gunzip` command. Then, `ls` again and you should see a `.fna` file. Copy paste that file and the `mv` command will use that and add the `flu2018.fa` name after. 
+
+```
+gunzip GCA_039050005.1_ASM39050000v1_genomic.fna.gz
+mv GCA_039050005.1_ASM39050000v1_genomic.fna flu2018.fa
+samtools faidx flu2018.fa
+```
+
+### 6.3. Load genome into jbrowse
+
+```
+jbrowse add-assembly flu2018.fa --out $APACHE_ROOT/jbrowse2 --load copy
+```
+
+## 6.4. Process genome annotations
+
+Still in the tmp folder, run the following command. The links used may update periodically, so follow these steps below yourself if the given gunzip command doesn't work: `ls` in the tmp folder and you will see a `.gff.gz` file. Copy paste that after the gunzip command.
+
+
+```
+gunzip GCA_039050005.1_ASM3905000v1_genomic.gff.gz
+```
+
+Use jbrowse to sort the annotations. jbrowse sort-gff sorts the GFF3 by refName (first column) and start position (fourth column), while making sure to preserve the header lines at the top of the file (which start with “#”). We then compress the GFF with bgzip (block gzip, which zips files into little blocks for rapid access), and index with tabix. The tabix command outputs a file named genes.gff.gz.tbi in the same directory, and we then refer to “genes.gff.gz” as a “tabix indexed GFF3 file”.
+
+The links used may update periodically, so follow these steps below yourself if the given `sort-gff` command doesn't work: Use the same file as the previous command and remove the `.gz`. Copy paste that after the sort-gff command.
+
+```
+jbrowse sort-gff GCA_039050005.1_ASM3905000v1_genomic.gff > flu2018.gff
+bgzip flu2018.gff
+tabix flu2018.gff.gz
+```
+
+### 6.5. Load annotation track into jbrowse
+
+```
+jbrowse add-track flu2018.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu2018
+```
+
+## 7.0 Use your genome browser to explore a gene of interest
+### 7.1. Launch JBrowse2
 Open `http://yourhost/jbrowse2/` again in your web browser. For local hosting, the url will be `http://localhost:8080/jbrowse2`.There should now be several options in the main menu. Search for a gene in the "linear genome view" section, and you will see our flu2022, flu2021, and flu2018 as dropdown options to select.
