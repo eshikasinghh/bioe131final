@@ -1,0 +1,22 @@
+position,seq1_aa,seq2_aa,seq3_aa,region
+3,N,N,R,Fusion_peptide
+4,I,I,T,Fusion_peptide
+11,V,I,V,Fusion_peptide
+52,T,A,A,Non-functional region
+67,I,I,V,Non-functional region
+69,K,K,N,Non-functional region
+99,D,A,T,RBS
+125,N,N,K,Non-functional region
+156,T,A,T,Sa_antigenic
+179,S,S,N,RBS
+200,A,A,E,Non-functional region
+225,L,L,M,Ca2_antigenic
+252,N,D,N,Non-functional region
+284,G,G,E,Non-functional region
+305,M,M,L,Non-functional region
+341,K,R,K,Stem_region
+402,D,D,N,Stem_region
+491,N,D,N,Stem_region
+503,D,D,Y,Non-functional region
+538,V,A,V,Non-functional region
+548,V,M,V,Non-functional region
