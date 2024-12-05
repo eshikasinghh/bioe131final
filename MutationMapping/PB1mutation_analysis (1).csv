@@ -1,0 +1,108 @@
+position,seq2018_aa,seq2021_aa,seq2022_aa,region
+16,D,N,N,RdRP_motifs
+110,T,A,T,RdRP_motifs
+147,V,I,I,RdRP_motifs
+154,S,G,G,RdRP_motifs
+156,T,T,K,RdRP_motifs
+158,N,S,N,RdRP_motifs
+159,E,E,D,RdRP_motifs
+168,K,R,K,RdRP_motifs
+172,D,E,E,RdRP_motifs
+195,M,I,V,RdRP_motifs
+207,R,K,K,RdRP_motifs
+374,A,T,A,Catalytic_domain
+401,V,A,A,Catalytic_domain
+430,K,R,R,Catalytic_domain
+566,T,A,T,Non-functional region
+614,D,E,E,Non-functional region
+735,I,I,V,PB2_binding
+758,M,-,-,Non-functional region
+759,E,-,-,Non-functional region
+760,Q,-,-,Non-functional region
+761,G,-,-,Non-functional region
+762,Q,-,-,Non-functional region
+763,D,-,-,Non-functional region
+764,T,-,-,Non-functional region
+765,Q,-,-,Non-functional region
+766,W,-,-,Non-functional region
+767,T,-,-,Non-functional region
+768,Q,-,-,Non-functional region
+769,S,-,-,Non-functional region
+770,T,-,-,Non-functional region
+771,E,-,-,Non-functional region
+772,H,-,-,Non-functional region
+773,I,-,-,Non-functional region
+774,N,-,-,Non-functional region
+775,T,-,-,Non-functional region
+776,Q,-,-,Non-functional region
+777,R,-,-,Non-functional region
+778,R,-,-,Non-functional region
+779,E,-,-,Non-functional region
+780,N,-,-,Non-functional region
+781,G,-,-,Non-functional region
+782,Q,-,-,Non-functional region
+783,Q,-,-,Non-functional region
+784,T,-,-,Non-functional region
+785,Q,-,-,Non-functional region
+786,K,-,-,Non-functional region
+787,P,-,-,Non-functional region
+788,E,-,-,Non-functional region
+789,H,-,-,Non-functional region
+790,L,-,-,Non-functional region
+791,N,-,-,Non-functional region
+792,S,-,-,Non-functional region
+793,T,-,-,Non-functional region
+794,Q,-,-,Non-functional region
+795,L,-,-,Non-functional region
+796,M,-,-,Non-functional region
+797,G,-,-,Non-functional region
+798,H,-,-,Non-functional region
+799,Y,-,-,Non-functional region
+800,L,-,-,Non-functional region
+801,R,-,-,Non-functional region
+802,T,-,-,Non-functional region
+803,T,-,-,Non-functional region
+804,N,-,-,Non-functional region
+805,R,-,-,Non-functional region
+806,A,-,-,Non-functional region
+807,D,-,-,Non-functional region
+808,M,-,-,Non-functional region
+809,H,-,-,Non-functional region
+810,K,-,-,Non-functional region
+811,Q,-,-,Non-functional region
+812,I,-,-,Non-functional region
+813,A,-,-,Non-functional region
+814,C,-,-,Non-functional region
+815,W,-,-,Non-functional region
+816,K,-,-,Non-functional region
+817,Q,-,-,Non-functional region
+818,W,-,-,Non-functional region
+819,L,-,-,Non-functional region
+820,S,-,-,Non-functional region
+821,L,-,-,Non-functional region
+822,R,-,-,Non-functional region
+823,S,-,-,Non-functional region
+824,P,-,-,Non-functional region
+825,T,-,-,Non-functional region
+826,Q,-,-,Non-functional region
+827,G,-,-,Non-functional region
+828,S,-,-,Non-functional region
+829,L,-,-,Non-functional region
+830,K,-,-,Non-functional region
+831,T,-,-,Non-functional region
+832,L,-,-,Non-functional region
+833,V,-,-,Non-functional region
+834,L,-,-,Non-functional region
+835,K,-,-,Non-functional region
+836,R,-,-,Non-functional region
+837,W,-,-,Non-functional region
+838,K,-,-,Non-functional region
+839,S,-,-,Non-functional region
+840,F,-,-,Non-functional region
+841,S,-,-,Non-functional region
+842,K,-,-,Non-functional region
+843,Q,-,-,Non-functional region
+844,E,-,-,Non-functional region
+845,W,-,-,Non-functional region
+846,T,-,-,Non-functional region
+847,S,-,-,Non-functional region

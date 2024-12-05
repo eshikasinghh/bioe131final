@@ -1,0 +1,325 @@
+position,seq2018_aa,seq2021_aa,seq2022_aa,region
+6,K,K,R,Non-functional region
+7,V,I,I,Non-functional region
+8,I,V,I,Non-functional region
+9,C,I,T,Non-functional region
+10,I,V,T,Non-functional region
+11,S,G,G,Non-functional region
+12,A,S,S,Non-functional region
+13,T,I,I,Non-functional region
+14,G,S,C,Non-functional region
+15,M,L,M,Non-functional region
+16,T,G,V,Non-functional region
+17,L,L,I,Non-functional region
+18,S,V,G,Non-functional region
+19,V,V,I,Non-functional region
+20,V,F,V,Non-functional region
+21,S,N,S,Non-functional region
+22,L,V,L,Non-functional region
+23,L,L,M,Non-functional region
+24,I,L,L,Non-functional region
+25,G,H,Q,Non-functional region
+26,I,A,I,Non-functional region
+27,A,M,G,Non-functional region
+28,N,S,N,Non-functional region
+29,L,I,I,Non-functional region
+30,-,I,I,Non-functional region
+31,-,L,S,Non-functional region
+32,-,M,I,Non-functional region
+33,-,-,W,Non-functional region
+34,-,-,V,Non-functional region
+35,-,-,S,Stalk_region
+36,-,-,H,Stalk_region
+37,G,V,S,Stalk_region
+38,L,L,I,Stalk_region
+39,N,A,Q,Stalk_region
+40,I,L,T,Stalk_region
+42,L,K,N,Stalk_region
+43,H,S,Q,Stalk_region
+44,Y,E,Y,Stalk_region
+45,K,N,Q,Stalk_region
+46,M,S,P,Stalk_region
+47,G,G,E,Stalk_region
+48,D,I,P,Stalk_region
+49,A,C,C,Stalk_region
+50,P,K,N,Stalk_region
+51,T,G,Q,Stalk_region
+52,V,T,S,Stalk_region
+53,D,T,I,Stalk_region
+54,I,V,I,Stalk_region
+55,P,R,A,Stalk_region
+56,S,E,Y,Stalk_region
+57,M,Y,E,Stalk_region
+59,G,E,N,Stalk_region
+61,N,V,-,Stalk_region
+62,S,R,-,Stalk_region
+63,T,I,-,Stalk_region
+64,T,E,-,Stalk_region
+65,T,K,-,Stalk_region
+66,I,V,-,Stalk_region
+67,-,T,-,Stalk_region
+68,-,Q,-,Stalk_region
+69,I,W,W,Stalk_region
+70,N,Y,I,Stalk_region
+72,N,T,Q,Stalk_region
+73,T,S,T,Stalk_region
+74,Q,V,Y,Stalk_region
+75,N,V,V,Stalk_region
+76,N,E,N,Stalk_region
+77,F,Y,I,Stalk_region
+78,T,-,N,Stalk_region
+79,N,-,N,Stalk_region
+80,I,-,-,Stalk_region
+81,T,-,T,Stalk_region
+82,N,-,N,Stalk_region
+83,I,-,F,Head_domain
+84,I,-,L,Head_domain
+85,I,V,A,Head_domain
+86,N,Q,E,Head_domain
+87,K,H,Q,Head_domain
+88,E,W,A,Head_domain
+89,E,N,V,Head_domain
+90,E,E,T,Head_domain
+91,R,G,S,Head_domain
+92,I,A,V,Head_domain
+93,F,Y,T,Head_domain
+94,L,T,L,Head_domain
+95,N,N,A,Head_domain
+96,L,N,G,Head_domain
+97,T,T,N,Head_domain
+98,K,E,S,Head_domain
+99,P,T,S,Head_domain
+100,L,I,L,Head_domain
+102,E,D,P,Head_domain
+103,V,V,I,Head_domain
+104,N,K,S,Head_domain
+105,S,G,G,Head_domain
+106,W,F,W,Head_domain
+107,H,A,A,Head_domain
+108,I,P,I,Head_domain
+109,L,F,Y,Head_domain
+114,A,G,G,Head_domain
+117,I,V,I,Head_domain
+119,E,S,S,Framework
+120,D,R,K,Head_domain
+121,A,G,G,Head_domain
+122,H,H,D,Head_domain
+123,I,I,V,Head_domain
+124,L,F,F,Head_domain
+126,T,I,I,Head_domain
+130,Y,F,F,Head_domain
+131,L,V,I,Head_domain
+134,D,S,S,Head_domain
+135,P,P,H,Head_domain
+136,Q,I,L,Head_domain
+137,S,E,E,Head_domain
+140,M,T,T,Head_domain
+142,A,F,F,Antigenic_sites
+144,S,T,T,Head_domain
+147,T,A,A,Head_domain
+148,T,L,L,Head_domain
+150,R,N,N,Head_domain
+151,G,D,D,Active_site
+152,R,K,K,Active_site
+154,A,S,S,Head_domain
+158,I,V,V,Head_domain
+159,H,K,K,Head_domain
+164,F,F,Y,Head_domain
+166,A,T,T,Head_domain
+168,V,M,M,Head_domain
+170,W,V,C,Head_domain
+171,E,E,P,Head_domain
+172,M,V,V,Head_domain
+174,Q,Q,E,Head_domain
+175,A,S,A,Head_domain
+177,S,N,S,Head_domain
+178,P,V,P,Framework
+180,N,Q,N,Head_domain
+181,V,A,S,Head_domain
+183,V,F,F,Head_domain
+185,C,A,S,Head_domain
+186,I,V,V,Head_domain
+187,G,A,A,Head_domain
+190,S,A,A,Head_domain
+191,T,T,S,Head_domain
+192,S,A,A,Head_domain
+197,I,K,I,Head_domain
+198,S,K,S,Framework
+199,R,W,W,Antigenic_sites
+200,M,M,L,Antigenic_sites
+201,S,T,T,Head_domain
+203,C,G,G,Head_domain
+204,M,V,I,Head_domain
+205,S,T,S,Head_domain
+208,N,D,D,Head_domain
+209,N,P,N,Head_domain
+210,N,K,G,Head_domain
+212,S,V,V,Head_domain
+215,V,V,L,Head_domain
+216,W,H,K,Head_domain
+218,G,G,N,Head_domain
+220,R,V,I,Head_domain
+221,P,P,I,Head_domain
+222,V,T,T,Framework
+223,T,D,D,Head_domain
+224,E,V,T,Active_site
+225,I,V,I,Head_domain
+226,P,N,K,Head_domain
+229,A,A,R,Head_domain
+230,G,G,N,Head_domain
+231,N,D,N,Head_domain
+239,E,S,E,Head_domain
+241,V,T,A,Head_domain
+243,H,I,V,Head_domain
+244,K,Q,N,Head_domain
+246,V,N,S,Head_domain
+248,P,Y,F,Head_domain
+249,V,W,T,Head_domain
+256,A,A,S,Head_domain
+258,N,R,G,Head_domain
+259,R,Q,Q,Head_domain
+261,A,Q,S,Head_domain
+262,T,Y,Y,Head_domain
+263,K,R,K,Head_domain
+265,I,Y,F,Head_domain
+266,Y,K,K,Head_domain
+267,F,A,I,Head_domain
+268,K,N,E,Head_domain
+269,E,Q,K,Head_domain
+272,I,I,V,Head_domain
+273,Q,I,V,Head_domain
+274,K,D,K,Head_domain
+275,I,Q,S,Head_domain
+276,E,T,V,Active_site
+277,E,D,E,Framework
+278,L,V,L,Head_domain
+279,R,S,N,Head_domain
+280,G,F,A,Head_domain
+281,N,S,P,Head_domain
+282,A,G,N,Head_domain
+283,Q,G,Y,Head_domain
+285,I,I,Y,Head_domain
+292,G,P,P,Active_site
+293,A,N,D,Framework
+294,V,D,A,Calcium_binding
+295,R,G,G,Calcium_binding
+296,V,K,E,Calcium_binding
+297,I,V,I,Calcium_binding
+298,K,E,M,Head_domain
+306,K,T,H,Head_domain
+308,A,T,S,Head_domain
+312,V,V,W,Head_domain
+313,I,L,V,Head_domain
+314,T,V,S,Head_domain
+315,I,I,F,Head_domain
+316,D,S,N,Head_domain
+317,P,P,Q,Head_domain
+318,E,D,N,Head_domain
+319,M,-,-,Head_domain
+320,M,L,L,Head_domain
+321,T,S,E,Head_domain
+322,H,Y,Y,Head_domain
+323,T,R,Q,Head_domain
+324,S,V,I,Calcium_binding
+325,K,G,G,Calcium_binding
+327,L,L,I,Calcium_binding
+329,S,A,S,Antigenic_sites
+330,R,G,G,Calcium_binding
+331,V,L,V,Head_domain
+332,L,P,F,Head_domain
+333,T,S,G,Head_domain
+335,T,T,N,Head_domain
+336,S,P,P,Head_domain
+338,P,G,P,Head_domain
+339,N,K,N,Head_domain
+341,P,A,G,Head_domain
+342,T,Q,T,Head_domain
+343,-,F,-,Head_domain
+344,S,V,-,Antigenic_sites
+346,N,S,S,Antigenic_sites
+348,D,T,-,Calcium_binding
+349,A,S,S,Head_domain
+351,I,M,M,Head_domain
+352,I,-,-,Head_domain
+353,G,-,S,Head_domain
+354,G,G,S,Head_domain
+355,S,N,N,Head_domain
+356,P,Q,G,Head_domain
+357,D,G,A,Head_domain
+358,P,Y,Y,Head_domain
+364,A,G,S,Head_domain
+366,L,R,K,Head_domain
+367,D,Q,Y,Head_domain
+369,E,T,N,Antigenic_sites
+370,N,D,G,Antigenic_sites
+371,S,V,V,Active_site
+373,L,V,I,Head_domain
+377,I,I,K,Head_domain
+379,K,R,T,Head_domain
+380,D,T,S,Head_domain
+385,Y,F,F,Head_domain
+387,I,I,M,Head_domain
+388,L,I,I,Head_domain
+389,K,R,W,Head_domain
+390,V,I,D,Head_domain
+391,P,K,P,Head_domain
+393,A,G,G,Head_domain
+394,E,W,W,Head_domain
+396,D,Q,E,Head_domain
+398,Q,S,D,Head_domain
+399,S,K,S,Head_domain
+400,G,E,S,Head_domain
+401,P,Q,F,Head_domain
+402,T,I,S,Head_domain
+403,S,R,V,Head_domain
+404,H,R,K,Head_domain
+406,I,V,D,Active_site
+407,I,V,I,Head_domain
+408,V,I,V,Head_domain
+409,N,D,A,Head_domain
+410,N,N,I,Head_domain
+411,P,L,T,Head_domain
+412,N,N,D,Head_domain
+413,W,W,L,Head_domain
+419,A,S,T,Head_domain
+421,I,T,V,Head_domain
+422,D,L,Q,Head_domain
+423,Y,P,H,Head_domain
+424,-,V,P,Head_domain
+425,-,E,E,Framework
+426,W,L,L,Head_domain
+427,A,S,T,Head_domain
+428,N,G,G,Head_domain
+429,K,R,L,Head_domain
+430,E,E,D,Head_domain
+432,F,L,M,Head_domain
+433,N,V,R,Head_domain
+437,Y,W,W,Head_domain
+440,L,M,L,Head_domain
+446,K,E,K,Head_domain
+448,S,R,N,Head_domain
+449,S,T,T,Head_domain
+450,V,I,V,Head_domain
+451,L,-,-,Head_domain
+455,N,S,G,Head_domain
+457,I,S,S,Head_domain
+458,V,I,I,Head_domain
+459,A,V,S,Head_domain
+460,L,M,F,Head_domain
+463,S,V,V,Head_domain
+464,K,D,N,Head_domain
+465,E,H,S,Head_domain
+466,R,E,D,Head_domain
+467,L,I,T,Head_domain
+468,G,A,V,Head_domain
+469,S,D,G,Non-functional region
+473,H,H,P,Non-functional region
+477,E,I,E,Non-functional region
+478,I,L,L,Non-functional region
+479,I,P,P,Non-functional region
+480,Y,F,F,Non-functional region
+481,F,D,T,Non-functional region
+482,K,I,I,Non-functional region
+483,-,D,D,Non-functional region
+484,-,K,K,Non-functional region
+485,-,M,-,Non-functional region
