@@ -1,4 +1,7 @@
 # Link to Working Example of Database: https://eshikasinghh.github.io/bioe131final/
+To access our database, start a new session by clicking "Linear Genome View", selecting the "flu2022" assembly, and selecting "MT781550.2" to visualize the NA protein. Click "open", "open track selection", and select these options so you're screen looks like this:
+<img width="1512" alt="Screenshot 2024-12-05 at 3 11 19 PM" src="https://github.com/user-attachments/assets/050a2872-2796-414b-b47b-d0f648ea95f1">
+
 # BioE-131 Final. How to Set Up Our Data on JBrowse.
 
 ### 1.1. Mac OS setup
