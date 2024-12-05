@@ -1,4 +1,4 @@
-# bioe131final
+# BioE-131 Final. How to Set Up Our Data on JBrowse.
 
 ### 1.1. Mac OS setup
 Open a terminal and run the line below to install homebrew, a macOS package manager. This will make it easy for you to install necessary packages like apache2 and samtools. _You can skip this step if you already have brew installed._ 
