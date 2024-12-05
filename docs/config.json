@@ -1,23 +1,6 @@
 {
   "assemblies": [
-    {
-      "name": "hg38",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "hg38-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "hg38.fa",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "hg38.fa.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
+    
     {
       "name": "flu2023",
       "sequence": {
