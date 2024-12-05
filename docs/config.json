@@ -62,28 +62,7 @@
     "name": "New Session"
   },
   "tracks": [
-    {
-      "type": "FeatureTrack",
-      "trackId": "genes.gff",
-      "name": "genes.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "genes.gff.gz",
-          "locationType": "UriLocation"
-        },
-        "index": {
-          "location": {
-            "uri": "genes.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "hg38"
-      ]
-    },
+    
     {
       "type": "FeatureTrack",
       "trackId": "flu2023.gff",
@@ -227,25 +206,7 @@
     }
   ],
   "aggregateTextSearchAdapters": [
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "hg38-index",
-      "ixFilePath": {
-        "uri": "trix/hg38.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/hg38.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/hg38_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "hg38"
-      ]
-    },
+    
     {
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "flu2023-index",
