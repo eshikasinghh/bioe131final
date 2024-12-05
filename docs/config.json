@@ -2,10 +2,10 @@
   "assemblies": [
     
     {
-      "name": "flu2023",
+      "name": "flu_2022",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "flu2023-ReferenceSequenceTrack",
+        "trackId": "flu_2022-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -20,10 +20,10 @@
       }
     },
     {
-      "name": "flu2022",
+      "name": "flu_2018",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "flu2022-ReferenceSequenceTrack",
+        "trackId": "flu_2018-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -38,10 +38,10 @@
       }
     },
     {
-      "name": "flu2021",
+      "name": "flu_2021",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "flu2021-ReferenceSequenceTrack",
+        "trackId": "flu_2021-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -82,7 +82,7 @@
         }
       },
       "assemblyNames": [
-        "flu2023"
+        "flu_2022"
       ]
     },
     {
@@ -104,7 +104,7 @@
         }
       },
       "assemblyNames": [
-        "flu2022"
+        "flu_2018"
       ]
     },
     {
@@ -126,7 +126,7 @@
         }
       },
       "assemblyNames": [
-        "flu2021"
+        "flu_2021"
       ]
     },
     {
@@ -141,7 +141,7 @@
         }
       },
       "assemblyNames": [
-        "flu2022"
+        "flu_2018"
       ]
     },
     {
@@ -156,7 +156,7 @@
         }
       },
       "assemblyNames": [
-        "flu2022"
+        "flu_2018"
       ]
     },
     {
@@ -171,7 +171,7 @@
         }
       },
       "assemblyNames": [
-        "flu2022"
+        "flu_2018"
       ]
     },
     {
@@ -186,7 +186,7 @@
         }
       },
       "assemblyNames": [
-        "flu2022"
+        "flu_2018"
       ]
     },
     {
@@ -201,7 +201,7 @@
         }
       },
       "assemblyNames": [
-        "flu2022"
+        "flu_2018"
       ]
     }
   ],
@@ -223,7 +223,7 @@
         "locationType": "UriLocation"
       },
       "assemblyNames": [
-        "flu2023"
+        "flu_2022"
       ]
     }
   ]
