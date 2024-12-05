@@ -3,6 +3,8 @@ To access our database, click the link above and start a new session by clicking
 <img width="1512" alt="Screenshot 2024-12-05 at 3 11 19 PM" src="https://github.com/user-attachments/assets/050a2872-2796-414b-b47b-d0f648ea95f1">
 Select "MT781554.2" to visualize the HA protein, "MT781552.2" to visualize the PB2 protein, and "MT781553.2" to visualize the PB1 protein. The track selection is the same as the screenshot, minus the dnds_NA track for these 3 proteins. 
 
+ALl screenshots of the 4 proteins will be in the "JBrowse_Screenshots" folder of our repository.
+
 # BioE-131 Final. How to Set Up Our Data on JBrowse.
 
 ### 1.1. Mac OS setup
