@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3905000v1
+#!genome-build-accession NCBI_Assembly:GCA_039050005.1
+##sequence-region MT781552.2 1 2295
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781552.2	Genbank	region	1	2295	.	+	.	ID=MT781552.2:1..2295;Dbxref=taxon:11320;Name=1;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=1;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781552.2	Genbank	gene	1	2280	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+MT781552.2	Genbank	CDS	1	2280	.	+	0	ID=cds-QLJ85819.2;Parent=gene-PB2;Dbxref=NCBI_GP:QLJ85819.2;Name=QLJ85819.2;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=QLJ85819.2
+##sequence-region MT781553.2 1 2274
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781553.2	Genbank	region	1	2274	.	+	.	ID=MT781553.2:1..2274;Dbxref=taxon:11320;Name=2;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=2;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781553.2	Genbank	gene	1	2274	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+MT781553.2	Genbank	CDS	1	2274	.	+	0	ID=cds-QLJ85820.2;Parent=gene-PB1;Dbxref=NCBI_GP:QLJ85820.2;Name=QLJ85820.2;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=QLJ85820.2
+MT781553.2	Genbank	gene	209	367	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding
+MT781553.2	Genbank	CDS	209	367	.	+	0	ID=cds-QLJ85821.2;Parent=gene-PB1-F2;Dbxref=NCBI_GP:QLJ85821.2;Name=QLJ85821.2;gbkey=CDS;gene=PB1-F2;product=putative PB1-F2 protein;protein_id=QLJ85821.2
+##sequence-region MT781555.2 1 2151
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781555.2	Genbank	region	1	2151	.	+	.	ID=MT781555.2:1..2151;Dbxref=taxon:11320;Name=3;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=3;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781555.2	Genbank	gene	1	2151	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+MT781555.2	Genbank	CDS	1	2151	.	+	0	ID=cds-QLJ85823.2;Parent=gene-PA;Dbxref=NCBI_GP:QLJ85823.2;Name=QLJ85823.2;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=QLJ85823.2
+MT781555.2	Genbank	gene	1	760	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+MT781555.2	Genbank	CDS	1	570	.	+	0	ID=cds-QLJ85824.2;Parent=gene-PA-X;Dbxref=NCBI_GP:QLJ85824.2;Name=QLJ85824.2;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QLJ85824.2
+MT781555.2	Genbank	CDS	572	760	.	+	0	ID=cds-QLJ85824.2;Parent=gene-PA-X;Dbxref=NCBI_GP:QLJ85824.2;Name=QLJ85824.2;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QLJ85824.2
+##sequence-region MT781554.2 1 1704
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781554.2	Genbank	region	1	1704	.	+	.	ID=MT781554.2:1..1704;Dbxref=taxon:11320;Name=4;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=4;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781554.2	Genbank	gene	1	1704	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+MT781554.2	Genbank	CDS	1	1704	.	+	0	ID=cds-QLJ85822.2;Parent=gene-HA;Dbxref=NCBI_GP:QLJ85822.2;Name=QLJ85822.2;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=QLJ85822.2
+MT781554.2	Genbank	signal_peptide_region_of_CDS	1	48	.	+	.	ID=id-QLJ85822.2:1..16;Parent=cds-QLJ85822.2;gbkey=Prot
+MT781554.2	Genbank	mature_protein_region_of_CDS	49	1035	.	+	.	ID=id-QLJ85822.2:17..345;Parent=cds-QLJ85822.2;gbkey=Prot;product=HA1
+MT781554.2	Genbank	mature_protein_region_of_CDS	1036	1701	.	+	.	ID=id-QLJ85822.2:346..567;Parent=cds-QLJ85822.2;gbkey=Prot;product=HA2
+##sequence-region MT781551.2 1 1497
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781551.2	Genbank	region	1	1497	.	+	.	ID=MT781551.2:1..1497;Dbxref=taxon:11320;Name=5;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=5;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781551.2	Genbank	gene	1	1497	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+MT781551.2	Genbank	CDS	1	1497	.	+	0	ID=cds-QLJ85818.2;Parent=gene-NP;Dbxref=NCBI_GP:QLJ85818.2;Name=QLJ85818.2;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=QLJ85818.2
+##sequence-region MT781550.2 1 1413
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781550.2	Genbank	region	1	1413	.	+	.	ID=MT781550.2:1..1413;Dbxref=taxon:11320;Name=6;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=6;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781550.2	Genbank	gene	1	1413	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+MT781550.2	Genbank	CDS	1	1413	.	+	0	ID=cds-QLJ85817.2;Parent=gene-NA;Dbxref=NCBI_GP:QLJ85817.2;Name=QLJ85817.2;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=QLJ85817.2
+##sequence-region MT781549.2 1 982
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781549.2	Genbank	region	1	982	.	+	.	ID=MT781549.2:1..982;Dbxref=taxon:11320;Name=7;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=7;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781549.2	Genbank	gene	1	982	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+MT781549.2	Genbank	CDS	1	26	.	+	0	ID=cds-QLJ85816.2;Parent=gene-M2;Dbxref=NCBI_GP:QLJ85816.2;Name=QLJ85816.2;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=QLJ85816.2
+MT781549.2	Genbank	CDS	715	982	.	+	1	ID=cds-QLJ85816.2;Parent=gene-M2;Dbxref=NCBI_GP:QLJ85816.2;Name=QLJ85816.2;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=QLJ85816.2
+MT781549.2	Genbank	gene	1	759	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+MT781549.2	Genbank	CDS	1	759	.	+	0	ID=cds-QLJ85815.2;Parent=gene-M1;Dbxref=NCBI_GP:QLJ85815.2;Name=QLJ85815.2;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=QLJ85815.2
+##sequence-region MT781548.2 1 840
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT781548.2	Genbank	region	1	840	.	+	.	ID=MT781548.2:1..840;Dbxref=taxon:11320;Name=8;collection-date=09-Feb-2018;country=Denmark;gbkey=Src;isolate=4227-1;isolation-source=Pool of tracheal and cloacal samples;mol_type=viral cRNA;nat-host=white-tailed eagle;segment=8;serotype=H5N6;strain=A/white-tailed eagle/Denmark/4227-1/2018
+MT781548.2	Genbank	gene	1	838	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+MT781548.2	Genbank	CDS	1	30	.	+	0	ID=cds-QLJ85814.2;Parent=gene-NEP;Dbxref=NCBI_GP:QLJ85814.2;Name=QLJ85814.2;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QLJ85814.2
+MT781548.2	Genbank	CDS	503	838	.	+	0	ID=cds-QLJ85814.2;Parent=gene-NEP;Dbxref=NCBI_GP:QLJ85814.2;Name=QLJ85814.2;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QLJ85814.2
+MT781548.2	Genbank	gene	1	654	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+MT781548.2	Genbank	CDS	1	654	.	+	0	ID=cds-QLJ85813.2;Parent=gene-NS1;Dbxref=NCBI_GP:QLJ85813.2;Name=QLJ85813.2;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=QLJ85813.2
+###

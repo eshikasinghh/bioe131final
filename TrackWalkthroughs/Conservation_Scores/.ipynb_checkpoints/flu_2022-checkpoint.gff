@@ -1,0 +1,51 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3933885v1
+#!genome-build-accession NCBI_Assembly:GCA_039338855.1
+##sequence-region LC775576.1 1 2330
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region LC775577.1 1 2321
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region LC775578.1 1 2248
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region LC775579.1 1 1816
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region LC775580.1 1 1619
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region LC775581.1 1 1435
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region LC775582.1 1 1037
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region LC775583.1 1 867
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+###
+LC775576.1	DDBJ	region	1	2330	.	+	.	ID=LC775576.1:1..2330;Dbxref=taxon:11320;Name=1;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=1;serotype=H5N1
+LC775576.1	DDBJ	CDS	28	2307	.	+	0	ID=cds-BEP19164.1;Parent=gene-PB2;Dbxref=NCBI_GP:BEP19164.1;Name=BEP19164.1;gbkey=CDS;gene=PB2;product=polymerase basic protein 2;protein_id=BEP19164.1
+LC775576.1	DDBJ	gene	28	2307	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+LC775577.1	DDBJ	region	1	2321	.	+	.	ID=LC775577.1:1..2321;Dbxref=taxon:11320;Name=2;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=2;serotype=H5N1
+LC775577.1	DDBJ	CDS	16	2289	.	+	0	ID=cds-BEP19165.1;Parent=gene-PB1;Dbxref=NCBI_GP:BEP19165.1;Name=BEP19165.1;gbkey=CDS;gene=PB1;product=polymerase basic protein 1;protein_id=BEP19165.1
+LC775577.1	DDBJ	gene	16	2289	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+LC775577.1	DDBJ	CDS	110	382	.	+	0	ID=cds-BEP19166.1;Parent=gene-PB1;Dbxref=NCBI_GP:BEP19166.1;Name=BEP19166.1;gbkey=CDS;gene=PB1;product=PB1-F2 protein;protein_id=BEP19166.1
+LC775578.1	DDBJ	region	1	2248	.	+	.	ID=LC775578.1:1..2248;Dbxref=taxon:11320;Name=3;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=3;serotype=H5N1
+LC775578.1	DDBJ	CDS	34	2184	.	+	0	ID=cds-BEP19167.1;Parent=gene-PA;Dbxref=NCBI_GP:BEP19167.1;Name=BEP19167.1;gbkey=CDS;gene=PA;product=polymerase acidic protein;protein_id=BEP19167.1
+LC775578.1	DDBJ	gene	34	2184	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+LC775579.1	DDBJ	region	1	1816	.	+	.	ID=LC775579.1:1..1816;Dbxref=taxon:11320;Name=4;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=4;serotype=H5N1
+LC775579.1	DDBJ	CDS	23	1726	.	+	0	ID=cds-BEP19168.1;Parent=gene-HA;Dbxref=NCBI_GP:BEP19168.1;Name=BEP19168.1;gbkey=CDS;gene=HA;product=haemagglutinin;protein_id=BEP19168.1
+LC775579.1	DDBJ	gene	23	1726	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+LC775580.1	DDBJ	region	1	1619	.	+	.	ID=LC775580.1:1..1619;Dbxref=taxon:11320;Name=5;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=5;serotype=H5N1
+LC775580.1	DDBJ	CDS	67	1563	.	+	0	ID=cds-BEP19169.1;Parent=gene-NP;Dbxref=NCBI_GP:BEP19169.1;Name=BEP19169.1;gbkey=CDS;gene=NP;product=nucleoprotein;protein_id=BEP19169.1
+LC775580.1	DDBJ	gene	67	1563	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+LC775581.1	DDBJ	region	1	1435	.	+	.	ID=LC775581.1:1..1435;Dbxref=taxon:11320;Name=6;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=6;serotype=H5N1
+LC775581.1	DDBJ	CDS	14	1423	.	+	0	ID=cds-BEP19170.1;Parent=gene-NA;Dbxref=NCBI_GP:BEP19170.1;Name=BEP19170.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=BEP19170.1
+LC775581.1	DDBJ	gene	14	1423	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+LC775582.1	DDBJ	region	1	1037	.	+	.	ID=LC775582.1:1..1037;Dbxref=taxon:11320;Name=7;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=7;serotype=H5N1
+LC775582.1	DDBJ	CDS	30	55	.	+	0	ID=cds-BEP19171.1;Parent=gene-M;Dbxref=NCBI_GP:BEP19171.1;Name=BEP19171.1;gbkey=CDS;gene=M;product=matrix protein 2;protein_id=BEP19171.1
+LC775582.1	DDBJ	CDS	30	788	.	+	0	ID=cds-BEP19172.1;Parent=gene-M;Dbxref=NCBI_GP:BEP19172.1;Name=BEP19172.1;gbkey=CDS;gene=M;product=matrix protein;protein_id=BEP19172.1
+LC775582.1	DDBJ	gene	30	1011	.	+	.	ID=gene-M;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding
+LC775582.1	DDBJ	CDS	744	1011	.	+	1	ID=cds-BEP19171.1;Parent=gene-M;Dbxref=NCBI_GP:BEP19171.1;Name=BEP19171.1;gbkey=CDS;gene=M;product=matrix protein 2;protein_id=BEP19171.1
+LC775583.1	DDBJ	region	1	867	.	+	.	ID=LC775583.1:1..867;Dbxref=taxon:11320;Name=8;collection-date=2022-11-23;country=Japan: Hokkaido%2C Urahoro;gbkey=Src;isolate=A/white-tailed eagle/Japan/OU-1/2022;isolation-source=conjunctival swab;mol_type=viral cRNA;nat-host=Haliaeetus albicilla;segment=8;serotype=H5N1
+LC775583.1	DDBJ	CDS	17	46	.	+	0	ID=cds-BEP19173.1;Parent=gene-NS;Dbxref=NCBI_GP:BEP19173.1;Name=BEP19173.1;gbkey=CDS;gene=NS;product=nuclear export protein;protein_id=BEP19173.1
+LC775583.1	DDBJ	CDS	17	709	.	+	0	ID=cds-BEP19174.1;Parent=gene-NS;Dbxref=NCBI_GP:BEP19174.1;Name=BEP19174.1;gbkey=CDS;gene=NS;product=nonstructural protein;protein_id=BEP19174.1
+LC775583.1	DDBJ	gene	17	854	.	+	.	ID=gene-NS;Name=NS;gbkey=Gene;gene=NS;gene_biotype=protein_coding
+LC775583.1	DDBJ	CDS	519	854	.	+	0	ID=cds-BEP19173.1;Parent=gene-NS;Dbxref=NCBI_GP:BEP19173.1;Name=BEP19173.1;gbkey=CDS;gene=NS;product=nuclear export protein;protein_id=BEP19173.1
