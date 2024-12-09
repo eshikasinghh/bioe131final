@@ -2,6 +2,8 @@
 
 This folder contains all the reference genomes and genome annotations for 3 strains of Influenza in White-tailed Eagle.
 
+Clone this repo in jupyter lab or local desktop
+
 ## 0 Retrieving the fasta and gff files for analysis
 
 This folder already contains the files, but here is how to retrieve them your self.
@@ -18,9 +20,16 @@ Once you have ran it, you should see 4 new .wig files appear. You can ignore the
 
 ## 2 Convert to BigWig Files
 
+
 Jbrowse is only able to visualize bigwig files so let's convert our wig files.
 
 Open up a new terminal and make sure you are in this folder. Then run these commands:
+
+### If on local computer or AWS run these commands to make sure your system is compatible with the conversion package
+```
+conda create --name intel_env --platform osx-64
+conda activate intel_env
+```
 
 ### 2.1 Install Converter
 ```
@@ -42,7 +51,7 @@ wigToBigWig NA_conservation.wig chrom.sizes NA_conservation.bw
 After successfully completing step 2, you should see 4 new files in this folder.
 
 
-## 3 Download to local computer
+## 3 Download to local computer (only if you are on jupyter lab)
 
 In this step, you will add these BigWig files you generated to your local computer.
 
@@ -64,12 +73,15 @@ Use ls to make sure that it worked. You should see 4 new files in your tmp folde
 
 Lets visualize them now. For the purpose of being able to see all our comparision data in one place, you will be loading them onto flu2018 track. 
 
-In your terminal, make sure you are in the tmp folder
+In your terminal, make sure you are in the tmp folder and then run: 
 
 ```
-jbrowse add-track nameofFile --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu_2018
+jbrowse add-track pb2_conservation.bw --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu_2018
+jbrowse add-track pb1_conservation.bw --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu_2018
+jbrowse add-track HA_conservation.bw --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu_2018
+jbrowse add-track NA_conservation.bw --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames flu_2018
+
 ```
-Replace nameofFile with ex: pb2_conservation.bw
 
 Run this command for all 4 conservation files. 
 
