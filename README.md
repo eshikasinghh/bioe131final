@@ -25,7 +25,7 @@ Do the same for the year 2022 by selecting "flu_2022" assembly, and selecting "L
 
 ALl screenshots of the 4 proteins for the 3 years will be in the "JBrowse_Screenshots" folder of our repository.
 
-To visualize our proteins in 3D, click on "Tools" in the top left-hand corner, "Plugin Store", and scroll down in available plugins to the last one titled "Protein3D". Click the "+ Install" button for that plugin. Then click "File" on the top left corner, "New Session", and launch the "Protein view". Now, click on the tool icon on the right side of the page. In the "Download Structure" tab, input the following PBD IDs: HA - 4N5Z, NA - 3CL2, PB1/PB2 - 3A1G. Click "Apply", and under "Quick Styles on the right hand side, click "Illustrative". You should now be able to see our proteins one at time!
+To visualize our proteins in 3D, click "File" on the top left corner, "New Session", and launch the "Protein view". Now, click on the tool icon on the right side of the page. In the "Download Structure" tab, input the following PBD IDs: HA - 4N5Z, NA - 3CL2, PB1/PB2 - 3A1G. Click "Apply", and under "Quick Styles on the right hand side, click "Illustrative". You should now be able to see our proteins one at time!
 
 # BioE-131 Final. How to Set Up Our Data on JBrowse.
 ## 1. Platform Specific Setup
