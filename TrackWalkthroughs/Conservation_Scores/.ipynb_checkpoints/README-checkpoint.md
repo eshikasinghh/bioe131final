@@ -14,7 +14,7 @@ Unzip the files using gunzip.
 
 Run the python script in this folder to calculate the conservation scores for each protein that we want to observe. 
 
-Once you have ran it, you should see 4 new .wig files appear
+Once you have ran it, you should see 4 new .wig files appear. You can ignore the other generated files.
 
 ## 2 Convert to BigWig Files
 
@@ -46,7 +46,7 @@ After successfully completing step 2, you should see 4 new files in this folder.
 
 In this step, you will add these BigWig files you generated to your local computer.
 
-1. Right click the files and you should see an option "Copy Download Link". Click it
+1. Right click the BigWig(.bw) files and you should see an option "Copy Download Link". Click it
 2. Go to you local terminal or AWS terminal and make sure you are in your tmp folder.
 3. Use wget to download:
 
