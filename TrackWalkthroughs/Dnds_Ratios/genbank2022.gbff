@@ -1,0 +1,773 @@
+LOCUS       LC775576                2330 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 1, complete sequence.
+ACCESSION   LC775576
+VERSION     LC775576.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2330)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2330
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="1"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            28..2307
+                     /gene="PB2"
+     CDS             28..2307
+                     /gene="PB2"
+                     /codon_start=1
+                     /product="polymerase basic protein 2"
+                     /protein_id="BEP19164.1"
+                     /translation="MERIKELRDLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPA
+                     LRMKWMMAMKYPITADKRIMEMIPERNEQGQTLWSKTNDAGSDRVMVSPLAVTWWNRN
+                     GPTTSTVHYPKVYKTYFEKVERLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQ
+                     DVIMEVVFPNEVGARILTSESQLTITKEKKEELQDCKIAPLMVAYMLERELVRKTRFL
+                     PVAGGTSSVYIEVLHLTQGTCWEQMYTPGGEVRNDDVDQSLIIAARNIVRRATVSADP
+                     LASLLEMCHSTQIGGIRMVDILRQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTS
+                     GSSVKREEEVLTGNLQTLKIRVHEGYEEFTMVGRRATAILRKATRRLIQLIVSGRDEQ
+                     SIAEAIIVAMVFSQEDCMIKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWG
+                     IEPIDNVMGMIGILPDMTPSTEMSLRGVRVSRMGVDEYSSTERVVVSIDRFLRVRDQR
+                     GNVLLSPEEVSETQGTEKLTITYLSSMMWEINGPESVLVNTYQWIIRNWETVKIQWSQ
+                     DPTMLYNRMEFEPFQSLVPKAARGQYSGFVRTLFQQMRDVLGTFDTVQIIKLLPFAAA
+                     PPEQSRMQFSSLTVNVRGSGMRILVRGNSPVFNYNKATKRLIVLGKDAGALTEDPGEG
+                     TAGVESAVLRGFLILGKEDKRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRD
+                     SSILTDSQTATKRIRMAIN"
+ORIGIN      
+        1 agcgaaagca ggtcaaatat attcaatatg gagagaataa aagagctaag agatttgatg
+       61 tcgcagtctc gcactcgcga gatactgaca aaaaccaccg tggaccatat ggccataatc
+      121 aagaaatata catcaggaag acaggagaag aaccctgcac ttaggatgaa gtggatgatg
+      181 gcaatgaaat atccgattac agcagacaaa aggataatgg agatgatccc tgaaagaaac
+      241 gagcaaggtc agactctttg gagcaaaaca aatgatgctg gatcagatag agtaatggtg
+      301 tcacctctgg ctgtgacgtg gtggaataga aatggaccaa caacaagtac agtccattac
+      361 ccaaaggtct ataaaaccta ctttgaaaag gttgaaaggt taaagcatgg aaccttcggc
+      421 cctgtccatt tccggaatca ggttaagata cgccgcagag ttgacataaa cccgggccat
+      481 gcagacctca gtgctaaaga agcacaagac gtcatcatgg aggtcgtttt cccaaatgaa
+      541 gtcggagcca gaatattgac atcagagtca cagttaacaa ttacaaaaga aaagaaggag
+      601 gaactccagg actgtaagat tgcccctcta atggtggcat acatgttgga gagagaactg
+      661 gttcgaaaaa ccagattcct gccagtagct ggcggaacaa gtagcgtata tatcgaagtg
+      721 ttgcacttga ctcaaggaac ctgctgggaa caaatgtata cgccaggagg agaagtgaga
+      781 aatgatgacg ttgaccaaag tttaattatt gctgccagaa atatcgttag gagagcaaca
+      841 gtatcagcag acccattggc ttcactactg gagatgtgcc atagtacaca gattggcgga
+      901 ataagaatgg tagacattct tagacagaac ccaacagaag agcaagccgt ggatatatgc
+      961 aaagcagcaa tgggtttaag aatcagttca tccttcagtt ttggaggttt cactttcaaa
+     1021 aggacaagcg gatcatctgt caaaagagaa gaggaagtgc tcaccggcaa cctccaaaca
+     1081 ttgaaaataa gagtacatga ggggtatgag gaattcacaa tggttgggcg gagagcaaca
+     1141 gccattctaa ggaaagcaac cagaaggctg atccaattga tagtaagtgg aagagacgag
+     1201 cagtcaatcg ccgaagcgat catagtggca atggtgttct ctcaagagga ttgcatgata
+     1261 aaggctgtac gaggtgattt aaattttgtc aatagagcga atcagcggct caatcctatg
+     1321 catcagctcc tgaggcattt ccaaaaggat gcaaaggtac tattccaaaa ctggggaatt
+     1381 gaacccattg acaatgtcat gggaatgata ggaatattgc ctgatatgac ccccagcaca
+     1441 gagatgtcac taagaggagt gagggtcagt agaatgggag tggatgaata ttccagtact
+     1501 gagagggtgg tcgtgagtat tgatcgcttc ttgagggtac gagaccagag aggaaatgta
+     1561 ctcttgtctc ccgaagaggt cagtgaaaca cagggaacag agaagctaac gataacatat
+     1621 ttatcatcca tgatgtggga aattaatggc cctgagtcag tgctagttaa cacatatcaa
+     1681 tggatcatca gaaactggga aactgtgaag attcagtggt cccaagaccc tacaatgcta
+     1741 tacaacagga tggagtttga gccttttcag tccttggtgc ctaaggcagc cagaggccag
+     1801 tacagtggat ttgtaaggac cctattccag cagatgcgtg atgtgctggg aacctttgac
+     1861 actgtccaga taataaagct acttccattt gcagcagcac caccagaaca gagtaggatg
+     1921 cagttctctt ctctaactgt aaacgtaagg ggttcaggaa tgagaatact tgtgagaggc
+     1981 aactcccctg tgttcaacta taacaaggca accaagaggc tcatagtcct tggaaaggat
+     2041 gctggtgcat tgacagaaga cccaggtgag gggacagcag gagtggagtc tgcagtattg
+     2101 agagggttcc taattctggg caaagaggac aaaagatatg gaccagcgct gagcatcaat
+     2161 gaattgagca atcttgcgaa aggggagaag gctaatgtgt tgatagggca aggagacgtg
+     2221 gtgttggtga tgaaacggaa acgggactct agcatactta ctgacagcca gacagcgacc
+     2281 aaaagaattc ggatggccat caattagtgt cgaattgttt tggtcgctgt
+//
+LOCUS       LC775577                2321 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 2, complete sequence.
+ACCESSION   LC775577
+VERSION     LC775577.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2321)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2321
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="2"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            16..2289
+                     /gene="PB1"
+     CDS             16..2289
+                     /gene="PB1"
+                     /codon_start=1
+                     /product="polymerase basic protein 1"
+                     /protein_id="BEP19165.1"
+                     /translation="MDVNPTLLFLKVPAQDAISTTFPYTGDPPYSHGTGTGYTMDTVN
+                     RTHQYSEKGKWTTNTETGAPQLNPIDGPLPEDNEPSGYAQTDCVLEAMAFLEESHPGI
+                     FENSCLETMEVVQQTRVDKLTQGRQTYDWTLNRNQPAATALANTVEVFRSNSLTANES
+                     GRLIDFLKDVMDSMDKEEMEITTHFQRKRRVRDNMTKKMVTQRTIGRKKQRLNKRSYL
+                     IRALTLNTMTKDAERGKLKRRAIATPGMQIRGFVYFVETLARSICEKLEQSGLPVGGN
+                     EKKAKLANVVRKMMTNSQDTELSFTITGDNTKWNENQNPRMFLAMITYITRNQPEWFR
+                     NVLSIAPIMFSNKMARLGKGYMFESKSMKLRTQIPAEMLANIDLKYFNESTRKKIEKI
+                     RPLLIDGTVSLSPGMMMGMFNMLSTVLGVSILNLGQKKYTKTTYWWDGLQSSDDFALI
+                     VNAPNHEGIQAGVDRFYRTCKLVGINMSKKKSYINRTGTFEFTSFFYRYGFVANFSME
+                     LPSFGVSGINESADMSIGVTVIKNNMINNDLGPATAQMALQLFIKDYRYTYRCHRGDT
+                     QIQTRRSFELKKLWEQTRSKAGLLVSDGGPNLYNIRNLHIPEVCLKWDLMDEDYQGRL
+                     CNPLNPFVSHKEIESVNNAVVMPAHGPAKSMEYDAVATTHSWIPKRNRSILNTSQRGI
+                     LEDEQMYQKCCSLFEKFFPSSSYRRPVGISSMVEAMVSRARIDARIDFESGRIKKEEF
+                     AEIMKICSTIEELRRQK"
+     CDS             110..382
+                     /gene="PB1"
+                     /codon_start=1
+                     /product="PB1-F2 protein"
+                     /protein_id="BEP19166.1"
+                     /translation="MEQGQDTQWTQSTEHINTQRRENGQQTQKPEHLNSTQLMGHYLR
+                     TTNRADMHKQIACWKQWLSLRSPTQGSLKTLVLKRWKSFSKQEWTS"
+ORIGIN      
+        1 aggcaaacca tttgaatgga tgtcaatccg actttacttt tcttaaaagt gccagcgcaa
+       61 gatgccataa gtaccacatt cccttacact ggagatcctc catacagcca tggaacaggg
+      121 acaggataca caatggacac agtcaacaga acacatcaat actcagagaa gggaaaatgg
+      181 acaacaaaca cagaaaccgg agcacctcaa ctcaacccaa ttgatgggcc actacctgag
+      241 gacaacgaac cgagcggata tgcacaaaca gattgcgtgt tggaagcaat ggctttcctt
+      301 gaggagtccc acccagggat ctttgaaaac tcttgtcttg aaacgatgga agtcgttcag
+      361 caaacaagag tggacaagct aactcaaggt cgccagactt atgattggac actaaataga
+      421 aaccaaccag ctgcaactgc cctggccaac actgtagagg tcttcagatc aaacagtcta
+      481 acagccaatg aatcggggag actaatagat ttcctcaagg atgtgatgga ctcaatggat
+      541 aaagaagaaa tggaaataac aacacatttc cagagaaaga gaagagtaag ggacaacatg
+      601 accaagaaaa tggtcacaca aagaacaata ggaaggaaga aacaaaggct aaacaagagg
+      661 agctacttaa taagagcact gacactgaat acaatgacaa aagatgcaga gagaggcaaa
+      721 ttgaagagac gggcgattgc aacaccaggg atgcagatta gaggatttgt gtactttgtc
+      781 gaaacactgg caaggagcat ctgtgaaaaa cttgagcaat ctggactccc cgttggaggg
+      841 aatgagaaga aggctaaatt ggcaaatgtc gtgagaaaaa tgatgactaa ctcacaagat
+      901 acagagctct ccttcacaat tactggagat aacaccaaat ggaatgagaa tcaaaatcct
+      961 cggatgtttc tggcaatgat aacatacatt acaagaaacc aacctgaatg gtttagaaat
+     1021 gtcttgagta ttgcccctat aatgttctcg aacaaaatgg cgagattggg aaaagggtac
+     1081 atgtttgaaa gtaagagcat gaagttacgg acacaaatac ctgcagaaat gcttgcaaac
+     1141 attgacttaa aatacttcaa tgaatcaaca agaaagaaaa tcgaaaaaat aaggcctcta
+     1201 ctaatagatg gcactgtctc attgagtcct ggaatgatga tgggcatgtt caatatgctg
+     1261 agtacagtat taggagtttc aattctaaat cttgggcaaa agaagtacac caaaaccaca
+     1321 tactggtggg atggactcca atcctctgat gatttcgccc tcatagtaaa tgcaccgaat
+     1381 catgagggaa tacaagcagg agtggatagg ttctatagga cctgcaaact ggtcgggatc
+     1441 aatatgagca aaaagaagtc ttacataaac cggactggaa catttgagtt cacaagcttt
+     1501 ttctatcgct atggatttgt ggctaacttc agtatggagc tgcccagctt tggagtttct
+     1561 gggatcaatg aatcagctga catgagcatc ggcgtcacag tgataaagaa caacatgata
+     1621 aataatgacc ttggaccagc aacagctcaa atggcccttc aactattcat caaagattac
+     1681 aggtacacgt accgatgcca cagaggtgac acacaaattc aaacgagaag atcattcgag
+     1741 ctgaagaagc tgtgggaaca gacccgttca aaggcaggac tgttggtgtc agatggagga
+     1801 ccaaatctat acaacattcg gaatctccat atcccagagg tctgcctgaa gtgggatctg
+     1861 atggacgaag attaccaggg caggttgtgt aatcctctga acccatttgt cagccataaa
+     1921 gaaattgagt ccgtaaacaa tgctgtggtg atgccagccc acggtccagc caaaagcatg
+     1981 gaatatgatg ccgttgcgac tacacactca tggattccta aaaggaatcg ttccattctc
+     2041 aataccagtc aaaggggaat tcttgaggat gaacagatgt accagaaatg ctgcagtcta
+     2101 ttcgagaaat tcttccccag tagttcatac aggagaccag ttggaatttc cagcatggtg
+     2161 gaggccatgg tgtctagggc ccgaatcgat gcacgcattg atttcgaatc tggaaggatc
+     2221 aagaaggaag agtttgctga gatcatgaag atctgttcca ccattgaaga gctcagacgg
+     2281 caaaaatagt gaatttagct tgtccttcat gaaaaaatgc c
+//
+LOCUS       LC775578                2248 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 3, complete sequence.
+ACCESSION   LC775578
+VERSION     LC775578.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2248)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2248
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="3"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            34..2184
+                     /gene="PA"
+     CDS             34..2184
+                     /gene="PA"
+                     /codon_start=1
+                     /product="polymerase acidic protein"
+                     /protein_id="BEP19167.1"
+                     /translation="MEDFVRQCFNPMVVELAEKAMKEYGEDPKIETNKFAAICTHLEV
+                     CFMYSDFHFIDERGESMIVESGDPNALLKHRFEIIEGRDRAMAWTVVNSICNTTGVEK
+                     PKFLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSEKTHIHIFSFTGEEMATKAE
+                     YTLDEESRARIKTRLFTIRQEMASRGLWDSFRQSERGEETTEERFEITGTMRRLADQS
+                     LPPNFSSLENFRAYVDGFEPNGCIEGKLSQMSKEVNARIEPFLKTTPRPLRLPDGPPC
+                     SQRSKFLLMDALKLSIEDPSHEGEGIPLYDAIKCMKTFFGWKEPNLVKPHEKGINPNY
+                     LLAWKQVLAELQDIENEEKFPKTKNMKKTSQLKWALGENMAPEKVDFEDCKDVSDLRQ
+                     YDSDEPEPRSLASWIQSEFNKACELTDSSWIELDEIGEDVAPIEHIASMRRNYFTAEV
+                     SHCRATEYIMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGR
+                     SHLRNDTDVVNFVSMEFSLTDPRLEPHKWEKYCVLEIGDMLLRTAIGQVSRPMFLYVR
+                     TNGTSKIKMKWGMEMRRCLLQSLQQIESMIEAESSVKEKDMTKEFFEDKSETWPIGES
+                     PKGVEEGSIGKVCRTLLAKSVFNSLYASPQLEGFSAESRKLLLIVQALRDNLEPGTFD
+                     LEGLYEAIEECLINDPWVLLNASWFNSFLTHALK"
+ORIGIN      
+        1 cgagcttgcg gaaaaagcag gtactgatcc aaaatggaag actttgtgcg acaatgcttc
+       61 aatccaatgg ttgtcgagct tgcggaaaaa gcaatgaaag aatatgggga agatccgaaa
+      121 atcgagacaa acaaatttgc cgcaatatgc acacacctag aagtctgttt catgtattcg
+      181 gatttccatt ttattgatga acgaggcgaa tcaatgattg tagaatctgg cgatccaaat
+      241 gcattattga aacaccgatt tgagataatc gaagggagag accgagcaat ggcctggaca
+      301 gtggtgaata gtatctgcaa caccacagga gtcgaaaagc ccaaattcct ccctgatttg
+      361 tatgactaca aagagaaccg attcattgaa attggagtaa cgcgaaggga agttcacata
+      421 tactatttag aaaaagccaa caagataaaa tcagagaaaa cacacattca catattttca
+      481 ttcactggag aggaaatggc caccaaggcg gaatacaccc ttgatgaaga gagcagagca
+      541 agaataaaaa ccagactgtt cactataaga caagaaatgg ccagtagagg tctatgggat
+      601 tcctttcgtc agtccgagag aggcgaagaa acaactgaag aaagatttga aatcacagga
+      661 accatgcgca ggcttgccga ccaaagtctc ccaccgaact tctccagcct tgaaaacttt
+      721 agagcctatg tggatggatt cgaaccgaac ggctgcattg agggcaagct ttctcaaatg
+      781 tcaaaagaag tgaacgccag aattgagcca tttctgaaga caacaccacg ccctctcaga
+      841 ttacctgatg ggcctccttg ttctcagcgg tcgaagttct tgctgatgga tgcccttaag
+      901 ttgagcatcg aagaccctag ccatgaaggg gagggcatac cgctgtatga tgcaatcaaa
+      961 tgcatgaaga cattttttgg ctggaaagag cccaacctcg taaagccgca tgagaaaggc
+     1021 ataaacccta attacctcct ggcttggaag caggtgctgg cagaacttca agatattgag
+     1081 aatgaggaga aatttccaaa aacaaagaac atgaagaaaa caagccaatt gaagtgggca
+     1141 cttggtgaga acatggcacc agaaaaagtg gactttgagg actgcaaaga tgttagcgat
+     1201 ctaagacagt acgacagtga cgaaccagag cctagatcac tagcaagctg gattcagagt
+     1261 gaattcaaca aggcatgcga attgacagat tcgagttgga ttgaacttga tgagataggg
+     1321 gaagacgttg ctccaatcga acacattgcg agtatgagga ggaactattt cacagcggag
+     1381 gtatcccatt gcagggccac tgaatacata atgaagggag tatacataaa cacagcccta
+     1441 ttgaatgcat cctgtgcagc catggatgac ttccaactga ttccaatgat aagcaagtgc
+     1501 agaaccaaag aaggaagacg gaagacaaat ctgtatggat tcattataaa aggaagatcc
+     1561 catttgagga atgacaccga tgtggtaaac tttgtgagca tggaattctc tctaactgac
+     1621 ccgaggctag agccacacaa atgggaaaag tactgtgttc ttgagatagg agacatgctc
+     1681 ctacggactg caataggcca agtgtcgagg cccatgttcc tgtatgtgag aaccaatggg
+     1741 acttccaaga tcaaaatgaa atggggcatg gagatgagac gatgccttct tcagtccctt
+     1801 caacaaattg agagcatgat tgaggccgaa tcttctgtca aagagaagga catgaccaag
+     1861 gaattctttg aagacaaatc agaaacatgg ccaattggag aatcacccaa aggggtggag
+     1921 gaaggctcta ttgggaaagt atgcagaaca ttgctagcaa agtctgtgtt caacagccta
+     1981 tatgcatctc cacaactcga gggattttca gctgaatcaa gaaaattgct tctcattgtt
+     2041 caggcactta gggacaacct ggaacctgga accttcgatc ttgaggggct atatgaagca
+     2101 attgaggagt gcttgattaa cgatccctgg gttttgctta atgcgtcttg gttcaactcc
+     2161 ttcctcacac atgcactgaa atagttgtgg caatgctact atttgctatc catactgtcc
+     2221 aaaaaagtac cttgtttcaa ctccttcc
+//
+LOCUS       LC775579                1816 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 4, complete sequence.
+ACCESSION   LC775579
+VERSION     LC775579.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1816)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1816
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="4"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            23..1726
+                     /gene="HA"
+     CDS             23..1726
+                     /gene="HA"
+                     /codon_start=1
+                     /product="haemagglutinin"
+                     /protein_id="BEP19168.1"
+                     /translation="MENIVLLLAIISLVKSDQICIGYHANNSTEQVDTIMEKNVTVTH
+                     AQDILEKAHNGKLCDLNGVKPLILKDCSVAGWLLGNPMCDEFIRVPEWSYIVERANPA
+                     NDLCYPGSLNDYEELKHLLSRINHFEKILIIPKSSWPNHETSLGVSAACPYQGAPSFF
+                     RNVVWLIKKNDAYPTIKISYNNTNREDLLILWGIHHSNNAEEQTNLYKNPTTYISVGT
+                     STLNQRLVPKIATRSQVNGQRGRMDFFWTILKPDDAIHFESNGNFIAPEYAYKIVKKG
+                     DSTIMKSGVEYGHCNTKCQTPVGAINSSMPFHNIHPLTIGECPKYVKSNKLVLATGLR
+                     NSPLRERRRKRGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDG
+                     VTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENE
+                     RTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDDECMESVRNGTYDYPQYS
+                     EEARLKREEISGVKLESIGTYQILSIYSTAASSLALAIMMAGLSLWMCSNGSLQCRIC
+                     I"
+ORIGIN      
+        1 agcaggggtt cactctgtca aaatggaaaa catagtactt cttcttgcaa taattagcct
+       61 tgttaaaagt gatcagattt gcattggtta ccatgcaaac aattcgacag agcaggttga
+      121 cacgataatg gaaaagaacg tcaccgttac acatgcccaa gacatactgg aaaaagcaca
+      181 caacgggaag ctctgtgatc taaatggggt gaagcctctg attttaaagg attgtagtgt
+      241 agctggatgg ctcctcggaa acccaatgtg cgacgaattc atcagagtgc cggaatggtc
+      301 ctacatagtg gagcgggcta atccagctaa tgacctctgt tacccaggga gcctcaatga
+      361 ctacgaagaa ctgaaacacc tgttgagcag aataaatcac tttgagaaga ttctgatcat
+      421 ccccaagagt tcctggccaa atcatgaaac atcactaggg gtgagcgcag cttgtccata
+      481 ccagggagcg ccctcctttt tcagaaatgt ggtgtggctt atcaaaaaga acgatgcata
+      541 cccaacaata aagataagct acaataatac caatcgggaa gatctcttga tactgtgggg
+      601 gattcatcat tccaacaatg cagaagagca gacaaatctc tataaaaatc caaccaccta
+      661 catttcagtt ggaacatcaa ctttaaacca gaggttggta ccaaaaatag ctactagatc
+      721 ccaagtaaac gggcaacgtg gaagaatgga cttcttctgg acaattttaa aaccagatga
+      781 tgccatccat ttcgagagta atggaaattt cattgctcca gaatatgcat acaaaattgt
+      841 caagaaaggg gactcaacaa ttatgaaaag tggagtggaa tatggccact gcaacaccaa
+      901 atgtcaaacc ccagtaggag cgataaattc tagtatgcca ttccacaaca tacatcctct
+      961 caccattggg gaatgcccca aatacgtgaa atcaaacaag ttggtccttg cgactgggct
+     1021 cagaaatagt cctctaagag aaaggagaag aaaaagaggc ctgtttgggg cgatagcagg
+     1081 gtttatagag ggaggatggc agggaatggt tgatggttgg tatgggtacc atcatagcaa
+     1141 tgagcagggg agtgggtacg ctgcagacaa agaatccacc caaaaggcaa tagatggagt
+     1201 taccaataag gtcaactcaa tcattgacaa aatgaacact caatttgagg cagttggaag
+     1261 ggagtttaat aacttagaaa ggaggataga gaatttgaac aagaaaatgg aagacggatt
+     1321 cctagatgtc tggacctata atgctgaact tctagttctc atggaaaacg agaggactct
+     1381 agatttccat gattcaaatg tcaagaacct ttacgacaaa gtcagactac agcttaggga
+     1441 taatgcaaag gagctgggta atggctgttt cgaattctat cacaaatgcg atgatgaatg
+     1501 tatggaaagt gtgagaaatg ggacgtatga ctaccctcag tattcagaag aagcaagatt
+     1561 aaaaagagaa gaaataagcg gagtgaaatt agaatcaata ggaacttacc agatactgtc
+     1621 aatttattca acagcggcga gttccctagc actggcaatc atgatggctg gtctatcttt
+     1681 atggatgtgc tccaatgggt cgttacagtg cagaatttgc atttagattt gtgagctcag
+     1741 attgtagtta aaaacaccct tgtttctact ctttttaatc ttgcttcttc tgaatactga
+     1801 gggtagtcat acgtcc
+//
+LOCUS       LC775580                1619 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 5, complete sequence.
+ACCESSION   LC775580
+VERSION     LC775580.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1619)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1619
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="5"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            67..1563
+                     /gene="NP"
+     CDS             67..1563
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="BEP19169.1"
+                     /translation="MASQGTKRSYEQMETGGERQNATEIRASVGRMVGGIGRFYIQMC
+                     TELKLSDHEGRLIQNSITIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRRDG
+                     KWVRELILYDKEEIRRIWRQANNGEDATAGLTHLMIWHSNLNDATYQRTRALVRTGMD
+                     PRMCSLMQGSTLPRRSGAAGAAVKGVGTMVMELIRMIKRGINDRNFWRGENGRRTRIA
+                     YERMCNILKGKFQTAAQRAMMDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCL
+                     PACVYGLAVASGYDFEREGYSLVGIDPFRLLQNSQVFSLIRPKENPAHKSQLVWMACH
+                     SAAFEDLRVSSFIRGTRVVPRGQLSTRGVQIASNENMETMDSSTLELRSRYWAIRTRS
+                     GGNTNQQRASAGQISVQPTFSVQRNLPFERATIMAAFTGNTEGRTSDMRTEIIRMMES
+                     ARPEDVSFQGRGVFELSDEKATNPIVPSFDMSNEGSYFFGDNAEEYDN"
+ORIGIN      
+        1 aaacaattcg acactaattg acgcaaatgc agggtagata atcactcact gagtgacatc
+       61 aacatcatgg cgtctcaagg caccaaacga tcctatgaac agatggagac tggtggagag
+      121 cgccagaatg ccactgagat cagagcatct gttggacgaa tggttggtgg aattggaagg
+      181 ttctacatac agatgtgcac tgagctcaaa ctcagcgacc atgaaggaag gctgatccag
+      241 aacagcataa caatagagag aatggttctc tctgcatttg atgaaaggag gaacaaatat
+      301 ctggaagaac accccagtgc ggggaaggac ccgaagaaaa ctggaggtcc aatttatcga
+      361 aggagagatg ggaaatgggt gagagaactg atcctgtatg acaaagagga gatcaggaga
+      421 atctggcgtc aagcgaacaa tggagaagac gcaactgctg gtctcactca cctgatgatc
+      481 tggcattcta atttaaatga tgccacatac cagaggacaa gagctctcgt gcgtactggg
+      541 atggacccca ggatgtgctc tcttatgcaa ggatcaactc tcccaaggag gtctggagct
+      601 gctggtgcag cagtaaaggg agtcgggacg atggtgatgg aactaattcg gatgataaag
+      661 cgaggaatta atgatcggaa cttctggaga ggcgagaacg gacgaaggac aaggattgca
+      721 tatgagagaa tgtgcaacat cctcaaaggg aaattccaaa cagcagcgca aagagcaatg
+      781 atggaccagg tgcgtgaaag caggaatcct ggcaatgctg aaattgaaga tctcatcttt
+      841 ctggcacggt ctgcactcat cctgagagga tcagtggctc ataagtcctg cttgccagct
+      901 tgtgtgtacg gactcgctgt ggccagtgga tacgactttg agagagaagg gtactctcta
+      961 gttgggatag atcctttccg tctgcttcaa aacagccagg tcttcagcct cattagacca
+     1021 aaggagaatc cagcacacaa aagtcaattg gtatggatgg catgtcattc cgcagcattc
+     1081 gaggatctga gagtctcaag tttcatcaga ggaacaagag tagttccaag aggacaacta
+     1141 tccacaagag gggttcaaat tgcttcaaat gagaacatgg aaacaatgga ctccagcact
+     1201 cttgaactga gaagcagata ttgggctata agaaccagga gtggaggaaa caccaaccaa
+     1261 cagagagcat ctgcagggca gatcagtgta cagcccactt tttcggtaca gagaaatctt
+     1321 ccctttgaaa gagcgaccat tatggcggcg ttcacaggga atactgaggg cagaacatcc
+     1381 gacatgagga ctgaaatcat aagaatgatg gaaagtgcca gaccagaaga tgtgtctttc
+     1441 caggggcggg gagtcttcga gctttcggac gaaaaggcaa cgaacccgat cgtgccttcc
+     1501 tttgacatga gtaatgaagg atcttatttc ttcggagaca atgcagagga gtatgacaat
+     1561 taaagaaaaa tacccttgtt tcgcggggag tcttcgagct ttcggacgaa aaggcaacg
+//
+LOCUS       LC775581                1435 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 6, complete sequence.
+ACCESSION   LC775581
+VERSION     LC775581.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1435)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1435
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="6"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            14..1423
+                     /gene="NA"
+     CDS             14..1423
+                     /gene="NA"
+                     /codon_start=1
+                     /product="neuraminidase"
+                     /protein_id="BEP19170.1"
+                     /translation="MNPNQRIITTGSICMVIGIVSLMLQIGNIISIWVSHSIQTGNQY
+                     QPEPCNQSIIAYENNTWINQTYVNINNTNFLAEQAVTSVTLAGNSSLCPISGWAIYSK
+                     DNGIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPYRTLMS
+                     CPVGEAPSPYNSRFESVAWSASACHDGISWLTIGISGPDNGAVAVLKYNGIITDTIKS
+                     WRNNILRTQESECACVNGSCFTVMTDGPSNGQASYKIFKIEKGKVVKSVELNAPNYHY
+                     EECSCYPDAGEIMCVCRDNWHGSNRPWVSFNQNLEYQIGYICSGVFGDNPRPNDGTGS
+                     CSPMSSNGAYGVKGFSFKYGNGVWIGRTKSTSSRSGFEMIWDPNGWTETDSSFSVKQD
+                     IVAITDLSGYSGTFVQHPELTGLDCMRPCFWVELIRGRPKENTVWTSGSSISFCGVNS
+                     DTVGWSWPDGAELPFTIDK"
+ORIGIN      
+        1 gcaggagttc aaaatgaatc caaatcaaag gataataacc actggatcaa tctgtatggt
+       61 aattgggata gtcagcttga tgctgcaaat tgggaacata atctcaatat gggttagcca
+      121 ttcaatccaa acagggaatc aatatcagcc tgaaccatgc aatcaaagca tcattgccta
+      181 tgagaacaac acctggataa atcagacgta tgtcaacatc aacaatacca attttcttgc
+      241 tgagcaggct gttacttcgg taacattagc gggcaattca tctctttgcc ctattagtgg
+      301 gtgggctata tacagtaagg acaacggtat aagaattggg tccaaggggg atgtgtttgt
+      361 tataagggaa ccgttcatct catgctccca cttggaatgc agaacctttt ttctgaccca
+      421 gggagctctg ctgaatgaca aacattctaa tgggaccgtt aaggatagaa gcccctatag
+      481 aactttgatg agttgtcccg tgggtgaggc tccttccccg tacaattcaa ggtttgagtc
+      541 tgttgcttgg tcggcaagtg cttgtcatga tggcatcagt tggttgacaa tcggtatttc
+      601 tggtccagac aatggagctg tggctgtatt gaagtacaat ggcataataa cggatactat
+      661 caagagttgg agaaacaaca ttttgagaac tcaagaatct gaatgtgcgt gcgtaaatgg
+      721 ctcttgcttc actgtaatga ctgatggacc aagcaatggg caggcctcat ataaaatctt
+      781 caagatagag aaagggaaag tagtcaaatc agttgaattg aatgccccta attaccacta
+      841 cgaggaatgc tcctgttacc ctgatgcggg tgagattatg tgtgtgtgca gggacaattg
+      901 gcatggctca aaccggccgt gggtatcttt taatcaaaat ctggagtatc aaataggata
+      961 tatatgcagt ggggttttcg gagacaaccc ccgccccaat gatggaacag gcagttgcag
+     1021 tccaatgtcc tctaacgggg catatggggt aaaagggttt tcatttaagt acggtaacgg
+     1081 ggtttggatc ggaagaacaa aaagcactag ttccagaagc ggctttgaga tgatttggga
+     1141 tccgaatggg tggactgaga cggacagtag tttctcagtt aagcaagaca tcgtagcaat
+     1201 aactgacttg tcaggatata gtgggacttt tgtccagcac ccagaactga caggattaga
+     1261 ttgcatgagg ccttgtttct gggttgagct gattagaggg aggcccaaag agaacacagt
+     1321 ttggactagc gggagcagca tatccttttg tggtgtaaat agtgacactg tgggttggtc
+     1381 ttggccagac ggtgctgagt tgccattcac cattgacaag tagtttgttc aaaaa
+//
+LOCUS       LC775582                1037 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 7, complete sequence.
+ACCESSION   LC775582
+VERSION     LC775582.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1037)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1037
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="7"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            30..1011
+                     /gene="M"
+     CDS             join(30..55,744..1011)
+                     /gene="M"
+                     /codon_start=1
+                     /product="matrix protein 2"
+                     /protein_id="BEP19171.1"
+                     /translation="MSLLTEVETPTKNGWECNCSDSSDPLVIAASIIGILHLILWILD
+                     RLFFKCVYRRLKYGLKRGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE"
+     CDS             30..788
+                     /gene="M"
+                     /codon_start=1
+                     /product="matrix protein"
+                     /protein_id="BEP19172.1"
+                     /translation="MSLLTEVETYVLSIVPSGPLKAEIAQRLEDVFAGKNTDLEALME
+                     WLKTRPILSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDRAVKLYRK
+                     LKREITFHGAKEVALSYSTGALASCMGLIYNRMGTVTAEVALGLVCATCEQIADSQHR
+                     SHRQIATTTNPLIRHENRMVLASTTAKAMEQMAGSSEQAAEAMEVASQARQMVQAMRT
+                     IGTHPSSSAGLRDDLLENLQAYQKRMGVQLQRFK"
+ORIGIN      
+        1 gttcgttgtc ctcaggtaga tattgaaaga tgagtcttct aaccgaggtc gaaacgtacg
+       61 ttctctctat cgtcccgtcg ggccccctca aagccgagat cgcgcagaga cttgaagatg
+      121 tctttgcagg aaagaacacc gatcttgagg ctctcatgga atggctaaag acaagaccaa
+      181 tcctgtcacc tctgactaag gggattttgg gatttgtgtt cacgctcacc gtgcccagtg
+      241 agcgaggact gcagcgtaga cgctttgtcc aaaatgctct aaatggaaat ggagacccaa
+      301 acaacatgga cagggcagtc aaactgtaca ggaaattgaa gagagagata acattccatg
+      361 gggctaaaga agttgcactc agttactcaa ccggtgcact tgccagttgt atgggtctca
+      421 tatacaacag gatggggacg gtgaccgcag aagtggcatt gggcctagtg tgtgccacct
+      481 gtgagcagat tgctgattca cagcatcggt cacacaggca gatagccacc accaccaacc
+      541 cactaatcag acatgaaaac agaatggtgt tggccagtac tacagctaag gctatggaac
+      601 agatggctgg atcgagtgag caagcagcgg aagccatgga ggttgctagt caggctaggc
+      661 aaatggtgca ggcgatgagg accattggaa ctcatcctag ctccagtgcc ggtctgagag
+      721 atgatctcct tgaaaatttg caggcctacc aaaaacggat gggagtgcaa ctgcagcgat
+      781 tcaagtgatc ctctcgttat tgccgcaagt atcattggga tcttgcactt gatattgtgg
+      841 attcttgatc gccttttctt caaatgcgtt tatcgtcgcc ttaaatacgg tttgaaaaga
+      901 gggccttcta cggaaggagt acctgagtcc atgagggaag agtaccggca ggaacagcag
+      961 agtgctgtgg atgttgacga tggtcatttt gtcaacatag agctggagta aaaaactacc
+     1021 ttgtttcttc gcctccg
+//
+LOCUS       LC775583                 867 bp    cRNA    linear   VRL 19-DEC-2023
+DEFINITION  Influenza A virus A/white-tailed eagle/Japan/OU-1/2022 H5N1 viral
+            cRNA, segment 8, complete sequence.
+ACCESSION   LC775583
+VERSION     LC775583.1
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Komu,J.G., Nguyen,H.D., Takeda,Y., Fukumoto,S., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Challenges for Precise Subtyping and Sequencing of a H5N1 Clade
+            2.3.4.4b Highly Pathogenic Avian Influenza Virus Isolated in Japan
+            in the 2022-2023 Season Using Classical Serological and Molecular
+            Methods
+  JOURNAL   Viruses 15 (11), 2274 (2023)
+   PUBMED   38005950
+  REMARK    DOI:10.3390/v15112274
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 867)
+  AUTHORS   Komu,J.G., Takeda,Y., Fukumoto,S., Nguyen,H.D., Imai,K.,
+            Takemae,H., Mizutani,T. and Ogawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2023) Contact:Haruko Ogawa Obihiro University of
+            Agriculture and Veterinary Medicine, Department of Veterinary
+            Medicine; 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 12.0.3
+            Sequencing Technology :: Illumina MiniSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..867
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /serotype="H5N1"
+                     /isolate="A/white-tailed eagle/Japan/OU-1/2022"
+                     /isolation_source="conjunctival swab"
+                     /host="Haliaeetus albicilla"
+                     /db_xref="taxon:11320"
+                     /segment="8"
+                     /country="Japan: Hokkaido, Urahoro"
+                     /collection_date="2022-11-23"
+     gene            17..854
+                     /gene="NS"
+     CDS             join(17..46,519..854)
+                     /gene="NS"
+                     /codon_start=1
+                     /product="nuclear export protein"
+                     /protein_id="BEP19173.1"
+                     /translation="MDSNTVSSFQDILMRMSKMQLGSSSEDLNGMITQFESLKLYRDS
+                     LGEAVMRMGDLHSLQSRNGKWRGQLSQKFEEIRWLIEEVRHRLKITENSFEQITFMQA
+                     LQLLLEVEQEIRTFSFQLI"
+     CDS             17..709
+                     /gene="NS"
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="BEP19174.1"
+                     /translation="MDSNTVSSFQVDCFLWHVRKRFADQELGDAPFLDRLRRDQKSLR
+                     GRGSTLGLDIETATRAGKQIVERILEEESVEALKMTIAPVPASRYLTDMTLEEMSRDW
+                     FMLMPKQKVAGSLCIRMDQAIMDKNIILKANFSVIFDRLETLILIRAFTEEGAIVGEI
+                     SPLPSLPGHTNEDVKNAIGVLIGGLEWNDNTVRVSETLQRFAWRSSNEDGRPPLPPKQ
+                     KRKMARTIESEV"
+ORIGIN      
+        1 gggtgacaaa aacataatgg attccaacac tgtgtcaagc tttcaggtag actgctttct
+       61 ttggcatgtc cgcaaacgat ttgcagacca agaactgggt gatgccccat tccttgaccg
+      121 gcttcgccga gatcagaaat ccctgagagg aagaggcagc actcttggtc tggacatcga
+      181 aacagccacc cgtgcgggaa agcagatagt ggagcggatt ctggaagaag aatctgttga
+      241 ggcacttaaa atgactattg cccccgtgcc agcttcacgc tacctaactg acatgactct
+      301 tgaggagatg tcaagggact ggttcatgct catgcccaaa cagaaagtgg caggttccct
+      361 ttgcatcaga atggaccagg caataatgga taaaaacatc atattgaaag caaacttcag
+      421 tgtgattttt gaccggctgg aaaccctaat actaattaga gctttcacag aagaaggagc
+      481 aattgtggga gaaatctcac cattaccttc tcttccagga catactaatg aggatgtcaa
+      541 aaatgcaatt ggggtcctca tcggaggact tgaatggaat gataacacag ttcgagtctc
+      601 tgaaactcta cagagattcg cttggagaag cagtaatgag gatgggagac ctccactccc
+      661 tccaaagcag aaacggaaaa tggcgaggac aattgagtca gaagtttgaa gaaataagat
+      721 ggctgattga agaagtgcgg cacagattga agattacaga gaacagtttc gaacagataa
+      781 ctttcatgca agccttacaa ctattgcttg aagtggagca agagataaga actttctcgt
+      841 ttcagcttat ttaatgataa aaaacac
+//

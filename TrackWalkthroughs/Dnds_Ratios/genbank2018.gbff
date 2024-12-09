@@ -1,0 +1,758 @@
+LOCUS       MT781552                2295 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 1 polymerase PB2 (PB2) gene, complete cds.
+ACCESSION   MT781552
+VERSION     MT781552.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 2295)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2295)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781552.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2295
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="1"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..2280
+                     /gene="PB2"
+     CDS             1..2280
+                     /gene="PB2"
+                     /codon_start=1
+                     /product="polymerase PB2"
+                     /protein_id="QLJ85819.2"
+                     /translation="MERVKELRDLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPA
+                     LRMKWMMAMKYPITADKRIMEMIPERNEQGQTLWSKTNDAGSDRVMVSPLAVTWWNRN
+                     GPTTSTVHYPKVYKTYFEKVERLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQ
+                     DVIMEVVFPNEVGARILTSESQLTITKEKKEELQDCKIAPLMVAYMLERELVRKTRFL
+                     PVAGGTSSVYIEVLHLTQGTCWEQMYTPGGDVRNDDVDQSLIIAARNIVRRAVVSADP
+                     LASLLEMCHSTQIGGIRMVDILRQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTS
+                     GSSVKREEEVLTGNLQTLKIRVHEGYEEFTMVGRRATAILRKATRRLIQLIVSGKDEQ
+                     SIAEAIIVAMVFSQEDCMVKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWG
+                     IEPIDNVMGMIGILPDMTPSTEMSLRGVRVSKMGVDEYSSTERVVVSIDRFLRVRDQR
+                     GNVLLSPEEVSETQGTEKLTITYSSSMMWEINGPESVLVNTYQWIIRNWETVKIQWSQ
+                     DPTMLYNKMEFEPFQSLVPKAARGQYSGFVRTLFQQMRDVLGTFDTVQIIKLLPFAAA
+                     PPEQSRMQFSSLTVNVRGSGMRILVRGNSPVFNYNKATKRLTVLGKDAGALTEDPDEG
+                     TAGVESAVLRGFLILGKEDKRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRD
+                     SSILTDSQTATKRIRMAIN"
+ORIGIN      
+        1 atggagagag taaaagaatt aagagatttg atgtcgcagt ctcgcactcg cgagatacta
+       61 acaaaaacca ctgtggacca tatggccata atcaagaaat atacgtcagg aagacaggag
+      121 aagaatcctg ctcttaggat gaaatggatg atggcaatga aatatccgat tacagcagac
+      181 aaaaggataa tggagatgat ccctgaaaga aatgagcaag gtcagactct ttggagcaag
+      241 acgaatgatg ctggatcgga tagagttatg gtgtcacctc tggctgtgac gtggtggaat
+      301 agaaatgggc caacgacgag tacagtccat tatccaaagg tctataaaac ctattttgaa
+      361 aaggtcgaaa ggttaaagca tggaaccttc ggtcccgtcc actttcgaaa tcaggttaaa
+      421 atacgccgca gggttgacat aaacccaggc catgcagatc tcagtgccaa agaagcacag
+      481 gatgtcatca tggaggtcgt tttcccaaat gaagtaggag ctaggatatt gacatcagag
+      541 tcacagttaa caataacaaa ggaaaagaag gaggagcttc aggactgtaa gattgctcct
+      601 ttgatggtgg catacatgtt ggaaagagaa ttggttcgca aaaccagatt tctaccagta
+      661 gctggtggga caagcagcgt gtacattgaa gtgttacact tgactcaagg aacctgctgg
+      721 gaacaaatgt atacgccggg aggggatgtg agaaatgatg atgttgatca gagtttaatt
+      781 attgctgctc gaaatattgt taggagggca gtagtatcag cagacccatt ggcttcgctc
+      841 ttggagatgt gccatagcac gcaaattggc gggataagga tggtagacat ccttagacaa
+      901 aacccaacag aagagcaagc tgtggacata tgcaaagctg caatgggtct aaggatcagt
+      961 tcatccttca gctttggagg tttcactttc aagaggacga gtggatcatc tgtcaaaaga
+     1021 gaagaagaag tgctcacagg caacctccaa acattgaaaa taagagtgca tgaaggatat
+     1081 gaagaattca caatggttgg gcgaagagca acagctattc taaggaaagc aaccagaagg
+     1141 ctgatccaac tgatagtgag tgggaaagac gagcagtcaa ttgccgaggc gatcatagtg
+     1201 gcaatggtgt tctcacaaga agactgtatg gtaaaagcag tacgaggtga tctgaatttt
+     1261 gtcaacagag caaaccagcg gttaaatcct atgcatcagc tattgaggca tttccagaag
+     1321 gatgcaaagg tgttgtttca aaactgggga attgagccca tcgacaatgt catggggatg
+     1381 atcggaatac tacctgacat gacccctagc accgagatgt cactaagagg agtgagagtc
+     1441 agtaaaatgg gagtggatga atactccagt actgagcggg tggttgtgag cattgatcgc
+     1501 ttcttgaggg tccgagacca gaggggaaac gtgctcttat ctccagaaga agttagtgaa
+     1561 acacagggaa cagaaaaact gacaataaca tattcgtcat ccatgatgtg ggaaatcaac
+     1621 ggcccggaat cagtgttagt gaacacatat caatggatca ttagaaattg ggaaactgtg
+     1681 aaaattcagt ggtcccaaga ccccacaatg ctatacaata agatggagtt tgagcccttt
+     1741 caatccttgg tgcctaaggc tgccagaggt cagtacagtg gatttgtgag aacgctattc
+     1801 caacagatgc gtgatgtact ggggacattt gacaccgtcc aaataataaa gctgctacca
+     1861 tttgcagcag ccccaccaga acagagtaga atgcagttct cttctctaac cgtgaacgtg
+     1921 aggggttcag gaatgagaat acttgtgaga ggcaactccc ctgtgttcaa ctataacaag
+     1981 gcaaccaaaa ggcttacagt cctaggaaag gatgcaggtg cattgacaga agatccagat
+     2041 gagggaacag caggggtgga atctgcggta ttaagaggat ttctaatcct aggtaaagaa
+     2101 gacaaaagat atggaccagc attgagcatc aacgaattga gcaatcttgc gaaaggggag
+     2161 aaggctaatg tgttgatagg gcaaggagac gtggtgttgg taatgaaacg gaaacgggac
+     2221 tctagcatac ttactgacag ccagacagcg accaaaagaa ttcggatggc catcaattag
+     2281 tgtcaaattg tttaa
+//
+LOCUS       MT781553                2274 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 2 polymerase PB1 (PB1) and putative PB1-F2 protein (PB1-F2)
+            genes, complete cds.
+ACCESSION   MT781553
+VERSION     MT781553.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 2274)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2274)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781553.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2274
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="2"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..2274
+                     /gene="PB1"
+     CDS             1..2274
+                     /gene="PB1"
+                     /codon_start=1
+                     /product="polymerase PB1"
+                     /protein_id="QLJ85820.2"
+                     /translation="MDVNPTLLFLKVPAQNAISTTFPYTGDPPYSHGTGTGYTMDTVN
+                     RTHQYSEKGKWTTNTETGAPQLNPIDGPLPEDNEPSGYAQTDCVLEAMAFLEESHPGI
+                     FENSCLEAMEVVQQTRVDKLTQGRQTYDWTLNRNQPAATALANTIEVFRSNGLTASES
+                     GRLIDFLRDVMESMDKEEMEITTHFQRKRRVRDNITKKMVTQRTIGKKKQRLNKRSYL
+                     IRALTLNTMTKDAERGKLKRRAIATPGMQIRGFVYFVETLARSICEKLEQSGLPVGGN
+                     EKKAKLANVVRKMMTNSQDTELSFTITGDNTKWNENQNPRMFLAMITYITRNQPEWFR
+                     NVLSIAPIMFSNKMARLGKGYMFESKSMKLRTQIPAEMLTNIDLKYFNESTRKKIEKI
+                     RPLLIDGTASLSPGMMMGMFNMLSTVLGVSILNLGQKRYTKTTYWWDGLQSSDDFALI
+                     VNAPNHEGIQAGVDRFYRTCKLVGINMSKKKSYINRTGTFEFTSFFYRYGFVANFSME
+                     LPSFGVSGINESADMSIGVTVIKNNMINNDLGPATAQMALQLFIKDYRYTYRCHRGDA
+                     QIQTRRSFELKKLWEQTRSKAGLLVSDGGPNLYNIRNLHIPEVCLKWELMDEDYQGRL
+                     CNPLNPFVSHKEIESVNNAVVMPAHGPAKSMEYDAVATTHSWIPKRNRSILNTSQRGI
+                     LEDEQMYQKCCSLFEKFFPSSSYRRPVGISSMVEAMVSRARIDARIDFESGRIKKEEF
+                     AEIMKICSTIEELRRQK"
+     gene            209..367
+                     /gene="PB1-F2"
+     CDS             209..367
+                     /gene="PB1-F2"
+                     /codon_start=1
+                     /product="putative PB1-F2 protein"
+                     /protein_id="QLJ85821.2"
+                     /translation="MDHYQRTMSQAGMHKLIACWKQWLSLKNPTQGYLKTLVLKRWKS
+                     FSKQEWTN"
+ORIGIN      
+        1 atggatgtca atccgacttt acttttctta aaagtgccag cgcaaaatgc tataagtact
+       61 acattccctt acactggaga ccctccatac agccatggaa caggaacagg atataccatg
+      121 gacacagtaa acagaacaca tcaatactca gaaaagggaa agtggacaac aaacacagaa
+      181 accggagcac cccaactcaa cccaattgat ggaccattac cagaggacaa tgagccaagc
+      241 gggtatgcac aaactgattg cgtgttggaa gcaatggctt tccttgaaga atcccaccca
+      301 gggatatttg aaaactcttg tcttgaagcg atggaagtcg ttcagcaaac aagagtggac
+      361 aaactaaccc aaggtcgcca gacttatgac tggacactga acagaaacca accagctgca
+      421 actgctctgg ccaacactat agaggtgttc agatcgaatg gtctgacagc cagtgaatca
+      481 gggagactga tagattttct cagggatgtg atggaatcaa tggataaaga agagatggaa
+      541 ataacaacac atttccagag aaaaagaaga gtgagggaca acattaccaa gaagatggtc
+      601 acacaaagaa caataggaaa gaagaagcag aggctgaaca agaggagtta cttaataaga
+      661 gcactgacat tgaacacaat gaccaaagat gcagaaagag gcaaattaaa gagacgggca
+      721 attgcaacac ccggaatgca gattagagga ttcgtgtact ttgtcgaaac actagcaagg
+      781 agcatctgtg agaaactcga gcaatctggg ctccctgttg gagggaatga gaagaaggct
+      841 aaattggcaa atgtcgtgag aaaaatgatg actaactcac aagatacaga gctctccttt
+      901 acaattactg gagacaacac caaatggaat gagaatcaaa accctcggat gtttttggca
+      961 atgataacat acatcacaag aaaccaacct gaatggttta gaaatgtctt aagcattgcc
+     1021 cctataatgt tctcaaacaa aatggcgagg ttagggaaag gatacatgtt tgaaagtaag
+     1081 agcatgaagc taaggacaca aataccagca gaaatgctta caaacattga tctgaaatat
+     1141 ttcaacgaat caacaagaaa gaaaatcgag aaaataagac ctctgctgat tgatggcacg
+     1201 gcctcattga gtcctgggat gatgatgggc atgttcaata tgctgagcac agtattaggg
+     1261 gtctcaatcc tgaatctcgg gcaaaagagg tacaccaaaa ccacatactg gtgggatgga
+     1321 cttcaatcct ctgatgattt cgctctcata gtgaatgcac cgaatcatga ggggatacaa
+     1381 gcaggagtgg ataggttcta taggacctgc aaactggttg ggatcaacat gagcaaaaag
+     1441 aaatcttaca taaaccgaac aggaacattt gagttcacaa gttttttcta ccgctatgga
+     1501 tttgtagcta acttcagtat ggaattaccc agctttggag tgtctggaat caatgaatca
+     1561 gctgacatga gcattggagt tacagtgata aaaaacaata tgataaacaa tgaccttgga
+     1621 ccagcaacag ctcaaatggc tcttcagtta ttcatcaaag actataggta cacgtaccga
+     1681 tgccacaggg gtgatgcaca aattcaaacg aggagatcat tcgagctgaa gaagctgtgg
+     1741 gagcagactc gttcaaaggc agggctgttg gtatcagacg gagggccaaa cctatacaat
+     1801 attcggaatc tccacatccc agaggtctgc ttgaagtggg aactgatgga tgaagactac
+     1861 caaggcaggc tgtgcaaccc tctgaaccca tttgtcagtc ataaagagat tgagtccgta
+     1921 aacaatgctg tagtaatgcc agcccatggc ccggccaaga gcatggaata tgatgctgtt
+     1981 gcgactacac actcgtggat tcctaagagg aaccgttcaa ttctcaatac cagccagagg
+     2041 ggaattcttg aggatgagca aatgtaccaa aagtgctgta gtctattcga gaaattcttc
+     2101 cccagcagtt catacaggag gccagttgga atttccagca tggtggaggc catggtgtct
+     2161 agggcccgaa ttgatgcacg catcgatttc gaatctggaa ggattaagaa agaagagttt
+     2221 gctgagatca tgaagatctg ttccaccatt gaagagctca gacggcaaaa atag
+//
+LOCUS       MT781555                2151 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 3 polymerase PA (PA) and PA-X protein (PA-X) genes,
+            complete cds.
+ACCESSION   MT781555
+VERSION     MT781555.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 2151)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2151)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781555.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2151
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="3"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..2151
+                     /gene="PA"
+     CDS             1..2151
+                     /gene="PA"
+                     /codon_start=1
+                     /product="polymerase PA"
+                     /protein_id="QLJ85823.2"
+                     /translation="MEDFVRQCFNPMIVELAEKAMKEYGEDPKIETNKFAAICTHLEV
+                     CFMYSDFHFIDERGESIIVESGDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGVEK
+                     PKFLPDLYDYKENRFIEIGITRREVHIYYLEKANKIKSEKTHIHIFSFTGEEMATRAD
+                     YTLDEESRARIKTRLFTIRQEMASRGLWDSFRQSERGEETIEERFEITGTMRRLADQS
+                     LPPNFSSLENFRAYVDGFEPNGCIEGKLSQMSKEVNARIEPFLKTTPRPLRLPDGPPC
+                     SQRSKFLLMDALKLSIEDPSHEGEGIPLYDAIKCMKTFFGWKEPNIVKPHEKGINPNY
+                     LLAWKQVLAELQDIENEEKIPKTKNMKKTSQLKWALGENMAPEKVDFEDCKDVSDLRQ
+                     YDSDEPESRSLASWIQSEFNKACELTDSSWIELDEIGEDVAPIEHIASMRRNYFTAEV
+                     SHCRATEYIMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGR
+                     SHLRNDTDVVNFVSMEFSLTDPRLEPHKWEKYCVLEIGDMLLRTAIGQVSRPMFLYVR
+                     TNGTSKIKMKWGMEMRRCLLQSLQQIESMIEAESSVKEKDMTKEFFENKSETWPIGES
+                     PKGVEEGSIGKVCRTLLAKSVFNSLYASPQLEGFSAESRKLLLIVQALRDNLEPGTFD
+                     LGGLYEAIEECLINDPWVLLNASWFNSFLTHALK"
+     gene            1..760
+                     /gene="PA-X"
+     CDS             join(1..570,572..760)
+                     /gene="PA-X"
+                     /ribosomal_slippage
+                     /codon_start=1
+                     /product="PA-X protein"
+                     /protein_id="QLJ85824.2"
+                     /translation="MEDFVRQCFNPMIVELAEKAMKEYGEDPKIETNKFAAICTHLEV
+                     CFMYSDFHFIDERGESIIVESGDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGVEK
+                     PKFLPDLYDYKENRFIEIGITRREVHIYYLEKANKIKSEKTHIHIFSFTGEEMATRAD
+                     YTLDEESRARIKTRLFTIRQEMASRGLWDSFVSPREAKRQLKKDLKSQEPCVGLPTKV
+                     SHRTSPALKTLEPMWMDSNRTAALRASFLKCQKK"
+ORIGIN      
+        1 atggaagact ttgtgcgaca atgcttcaat ccaatgattg tcgagcttgc ggaaaaggca
+       61 atgaaagaat atggggaaga tccgaaaatc gaaacaaaca aatttgccgc aatatgcacg
+      121 cacttagaag tctgtttcat gtattcagac ttccacttca ttgatgaacg aggcgaatca
+      181 ataattgtag aatctggcga tccgaacgca ttattgaaac accgatttga aataattgaa
+      241 gggagagacc gaacaatggc ctggacggtg gtgaatagta tctgcaacac cacaggagtc
+      301 gaaaagccca aattcctccc tgatttgtat gactacaaag agaaccgatt cattgaaatt
+      361 ggaataacgc gaagggaagt tcacatatac tatctagaaa aagccaacaa gataaaatca
+      421 gaaaagacac acattcacat attctcattc actggagagg aaatggccac cagggcggac
+      481 tacacccttg atgaagagag cagggcaaga ataaaaacca ggctgttcac tataagacaa
+      541 gaaatggcca gcaggggtct atgggattcc tttcgtcagt ccgagagagg cgaagagaca
+      601 attgaagaaa gatttgaaat cacaggaacc atgcgtaggc ttgccgacca aagtctccca
+      661 ccgaacttct ccagccttga aaactttaga gcctatgtgg atggattcga accgaacggc
+      721 tgcattgagg gcaagctttc tcaaatgtca aaagaagtga atgccagaat tgagccattt
+      781 ctgaagacaa caccacgccc tctcagatta cctgatggac ctccctgttc tcagcggtcg
+      841 aagttcttgc tgatggatgc ccttaaattg agcatcgagg acccaagcca tgagggggag
+      901 ggtataccgc tgtatgatgc aatcaaatgc atgaagacat tttttggctg gaaagagccc
+      961 aacatcgtaa aaccacatga aaaaggcata aaccctaatt acctcctggc ttggaagcag
+     1021 gtgctggcag aactccaaga tattgaaaat gaggagaaaa ttccaaaaac aaagaacatg
+     1081 aagaaaacaa gccaattgaa gtgggcactt ggtgagaaca tggcaccaga gaaagtggac
+     1141 tttgaggact gtaaagatgt tagcgatcta agacagtacg atagtgacga accagagtcc
+     1201 agatcactag caagctggat ccagagtgaa ttcaacaagg catgcgaatt gacagattcg
+     1261 agttggattg aacttgatga aataggggag gacgttgctc caattgaaca cattgcgagt
+     1321 atgaggagga actatttcac agcggaggta tcccattgca gggctactga atacataatg
+     1381 aagggagtat acataaacac agcactattg aatgcgtcct gtgcagccat ggatgacttc
+     1441 caactgattc caatgataag caaatgcaga accaaagaag gaagaaggaa gacaaatctg
+     1501 tatggattca ttataaaggg aagatcccat ttgaggaatg acaccgatgt ggtaaatttc
+     1561 gtgagcatgg aattctctct cactgacccg aggctggagc cacacaaatg ggaaaagtac
+     1621 tgtgttctcg aaataggaga catgctccta cggactgcaa taggccaagt gtcaaggccc
+     1681 atgttcctgt atgtgagaac caatgggact tccaagatca aaatgaaatg gggcatggag
+     1741 atgaggcgat gccttcttca gtcccttcaa caaattgaga gcatgatcga ggccgagtct
+     1801 tctgtcaaag agaaggacat gaccaaggaa ttctttgaaa acaaatcaga aacatggcca
+     1861 attggggaat cacccaaagg ggtggaggaa ggctccattg ggaaggtgtg cagaacattg
+     1921 ctagcaaagt ctgtgttcaa cagcctatat gcatctccac agctcgaggg gttttcagct
+     1981 gaatcaagaa aattgcttct cattgttcag gcgcttaggg acaatctgga acctgggacc
+     2041 ttcgatcttg gggggctata tgaagcaatt gaggagtgcc tgattaacga tccctgggtt
+     2101 ttgcttaatg cgtcttggtt caactccttc ctcacacatg cactgaaata g
+//
+LOCUS       MT781554                1704 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 4 hemagglutinin (HA) gene, complete cds.
+ACCESSION   MT781554
+VERSION     MT781554.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1704)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1704)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781554.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1704
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="4"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..1704
+                     /gene="HA"
+     CDS             1..1704
+                     /gene="HA"
+                     /function="receptor binding and fusion protein"
+                     /codon_start=1
+                     /product="hemagglutinin"
+                     /protein_id="QLJ85822.2"
+                     /translation="MENIVLLLAIVSLVKSDQICIGYHANNSTEQVDTIMEKNVTVTH
+                     AQDILEKTHNGKLCDLNGVKPLILKDCSVAGWLLGNPMCDEFIRVPEWSYIVERDNPA
+                     NDLCYPGSLNDYEELKHLLSRINHFEKILIIPKSSWPNHETSLGVSAACPYQGTPSFF
+                     RNVVWLIKKNDAYPTIKISYNNTNREDLLILWGIHHSNNAEEQTNLYKNPTTYISVGT
+                     STLNQRLVPKIATRSQVNGQRGRMDFFWTILKPNDAIHFESNGNFIAPEYAYKIVKKG
+                     DSTIMKSGVEYGHCNTKCQTPVGAINSSMPFHNIHPLTIGECPKYVKSNKLVLATGLR
+                     NSPLREKRRKRGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDG
+                     VTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENE
+                     RTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYS
+                     EEARLKREEISGVKLESIGTYQILSIYSTVASSLALAIMVAGLSLWMCSNGSLQCRIC
+                     I"
+     sig_peptide     1..48
+                     /gene="HA"
+     mat_peptide     49..1035
+                     /gene="HA"
+                     /product="HA1"
+     mat_peptide     1036..1701
+                     /gene="HA"
+                     /product="HA2"
+ORIGIN      
+        1 atggagaaca tagtgcttct tcttgcaata gttagccttg ttaaaagcga tcagatttgc
+       61 attggttacc atgcaaacaa ctcgacagag caagttgaca cgataatgga aaagaacgtc
+      121 actgttacac atgcccaaga catactggaa aaaacacaca acgggaagct ctgcgatcta
+      181 aatggagtga agcctctgat tttaaaggat tgtagtgtag ctggatggct cctcggaaac
+      241 ccaatgtgcg acgaattcat cagagtgccg gaatggtctt acatagtgga gagggataat
+      301 ccagctaatg acctctgtta cccagggagc ctcaatgact atgaagaact gaaacacctg
+      361 ttgagcagaa taaatcattt tgagaagatt ctgatcatcc ccaagagttc ttggcccaat
+      421 catgaaacat cattaggggt gagcgcagct tgtccatacc agggaacgcc ctcctttttc
+      481 agaaatgtgg tatggcttat caaaaagaac gatgcatacc ccacaataaa gataagctac
+      541 aataatacca atcgggaaga tctcttgata ctgtggggga ttcatcattc caacaatgca
+      601 gaagagcaga caaatctcta taaaaaccca accacctata tttcagttgg aacatcaaca
+      661 ttaaaccaga gattggtacc aaaaatagct actagatccc aagtaaacgg gcaacgtgga
+      721 agaatggact tcttctggac aattttaaaa ccgaatgatg caatccattt cgagagtaat
+      781 ggaaatttca ttgctccaga atatgcatac aaaattgtca agaaagggga ctcaacaatt
+      841 atgaaaagtg gagtggaata tggccactgc aacaccaaat gtcaaacccc agtaggagcg
+      901 ataaactcta gtatgccgtt ccacaatata catcctctca ccattgggga atgccccaaa
+      961 tacgtgaagt caaacaagtt ggtccttgcg actgggctta gaaatagtcc tctaagagaa
+     1021 aagagaagaa aaagagggct gtttggggcg atagcaggtt ttatagaggg aggatggcag
+     1081 ggaatggttg atggttggta tggctaccac catagcaatg agcaggggag tgggtacgct
+     1141 gcagacaaag agtccaccca aaaggcaata gatggagtta ccaataaggt caactcgatc
+     1201 attgacaaaa tgaacactca atttgaggca gttggaaggg agtttaataa cttagaaagg
+     1261 aggatagaga atttgaacaa gaaaatggaa gacggattcc tagatgtctg gacctataat
+     1321 gctgaacttc tagttctcat ggaaaacgag aggactctag atttccatga ctcaaatgtc
+     1381 aagaaccttt acgacaaagt cagactgcag cttagggata atgcaaagga gctgggtaac
+     1441 ggttgtttcg aattctatca caaatgtgat aatgaatgta tggaaagtgt gagaaatggg
+     1501 acgtatgact accctcagta ctcagaagaa gcaagattaa aaagagaaga aataagcgga
+     1561 gttaaattag aatcaatagg aacttaccaa atactgtcaa tttattcaac agtggcgagt
+     1621 tccctagcac tggcaatcat ggtggctggt ctatctttat ggatgtgctc caatgggtcg
+     1681 ttacagtgca gaatttgcat ttaa
+//
+LOCUS       MT781551                1497 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 5 nucleocapsid protein (NP) gene, complete cds.
+ACCESSION   MT781551
+VERSION     MT781551.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1497)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1497)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781551.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1497
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="5"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..1497
+                     /gene="NP"
+     CDS             1..1497
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="QLJ85818.2"
+                     /translation="MASQGTKRSYEQMETGGERQNATEIRASVGRMVGGIGRFYIQMC
+                     TELKLSDYEGRLIQNSITIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRRDG
+                     KWVRELILYDKEEIRRIWRQANNGEDATAGLTHLMIWHSNLNDATYQRTRALVRTGMD
+                     PRMCSLMQGSTLPRRSGAAGAAVKGVGTMVMELIRMIKRGINDRNFWRGENGRRTRIA
+                     YERMCNILKGKFQTAAQRAMMDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCL
+                     PACVYGLAVASGYDFEREGYSLVGIDPFRLLQNSQVFSLIRPNENPAHKSQLVWMACH
+                     SAAFEDLRVSSFIRGTRVVPRGQLSTRGVQIASNENMETMDSSTLELRSRYWAIRTRS
+                     GGNTNQQRASAGQISVQPTFSVQRNLPFERATIMAAFTGNTEGRTSDMRTEIIRMMES
+                     ARPEDVSFQGRGVFELSDEKATNPIVPSFDMSNEGSYFFGDNAEEYDN"
+ORIGIN      
+        1 atggcgtctc aaggcaccaa acgatcttat gaacagatgg aaactggtgg agagcgccag
+       61 aatgccactg agatcagagc atctgttgga agaatggttg gtggaattgg gaggttctac
+      121 atacagatgt gcactgagct caaactcagc gactatgaag gaaggctgat ccagaacagc
+      181 ataacaatag agagaatggt tctctccgca tttgatgaaa ggaggaacaa atatctggaa
+      241 gaacatccca gtgcggggaa agacccgaag aaaactggag gtccaattta tcgaaggaga
+      301 gatgggaaat gggtgagaga gctgatcctg tatgacaaag aggagatcag gaggatctgg
+      361 cgtcaagcga acaatggaga agacgcaacc gctggtctca ctcacctgat gatctggcat
+      421 tccaatctaa atgatgccac ataccagagg acaagagctc tcgtgcgtac tgggatggac
+      481 cctaggatgt gctctctcat gcaaggatca actctcccaa ggaggtctgg agctgctggt
+      541 gcagcagtaa agggagtcgg gacgatggtg atggaactaa ttcggatgat aaagcgagga
+      601 attaatgatc gaaacttctg gagaggcgag aatggacgaa ggacaaggat tgcatatgag
+      661 agaatgtgca acatcctcaa agggaaattc caaacagcag cacaaagagc aatgatggat
+      721 caggtgcgtg aaagcaggaa tcctggcaat gctgaaattg aagatctcat ctttctggca
+      781 aggtctgctc tcatcctgag aggatcagtg gcccataagt cctgcttgcc tgcttgtgtg
+      841 tacggactcg ctgtggccag tggatacgac tttgagagag aagggtactc tctagttgga
+      901 atagatcctt tccgtctgct tcaaaacagc caggtcttca gtctcattag accaaatgag
+      961 aatccagcac acaagagtca attggtgtgg atggcatgtc attctgcagc attcgaggat
+     1021 ctgagggtct caagtttcat cagaggaaca agagtagtcc caagaggaca actatccacc
+     1081 agaggagttc aaattgcttc aaatgagaac atggaaacaa tggactccag cactcttgaa
+     1141 ctgagaagca gatattgggc tataagaacc aggagtggag gaaacaccaa ccaacagaga
+     1201 gcatctgcag gacaaatcag tgtacagccc actttctcag tacagagaaa ccttcccttc
+     1261 gaaagagcga ccattatggc agcattcaca gggaacactg agggcaggac gtccgacatg
+     1321 aggactgaaa tcataagaat gatggaaagt gccagaccag aagatgtgtc tttccagggg
+     1381 cggggagtct tcgagctctc ggacgaaaag gcaacgaacc cgatcgtgcc ttcctttgac
+     1441 atgagtaatg aaggatctta tttcttcgga gacaatgcag aggagtacga caattaa
+//
+LOCUS       MT781550                1413 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 6 neuraminidase (NA) gene, complete cds.
+ACCESSION   MT781550
+VERSION     MT781550.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1413)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1413)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781550.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1413
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="6"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..1413
+                     /gene="NA"
+     CDS             1..1413
+                     /gene="NA"
+                     /codon_start=1
+                     /product="neuraminidase"
+                     /protein_id="QLJ85817.2"
+                     /translation="MNPNQKVICISATGMTLSVVSLLIGIANLGLNIGLHYKMGDAPT
+                     VDIPSMNGTNSTTTIINNNTQNNFTNITNIIINKEEERIFLNLTKPLCEVNSWHILSK
+                     DNAIRIGEDAHILVTREPYLSCDPQSCRMFALSQGTTLRGRHANGTIHDRSPFRALVS
+                     WEMGQAPSPYNVRVECIGWSSTSCHDGISRMSICMSGPNNNASAVVWYGGRPVTEIPS
+                     WAGNILRTQESECVCHKGVCPVVMTDGPANNRAATKIIYFKEGKIQKIEELRGNAQHI
+                     EECSCYGAVRVIKCVCRDNWKGANRPVITIDPEMMTHTSKYLCSRVLTDTSRPNDPTS
+                     GNCDAPIIGGSPDPGVKGFAFLDGENSWLGRTISKDSRSGYEILKVPNAETDTQSGPT
+                     SHQIIVNNPNWSGYSGAFIDYWANKECFNPCFYVELIRGRPKESSVLWTSNSIVALCG
+                     SKERLGSWSWHDGAEIIYFK"
+ORIGIN      
+        1 atgaatccaa atcagaaggt aatatgcatt tcagccacag gaatgacact atcggtagta
+       61 agcctgctaa taggaattgc caatttgggc ctaaacatcg gacttcacta taagatgggt
+      121 gatgcaccaa ctgttgatat cccgagcatg aatggaacca actcaaccac aacaataata
+      181 aacaataata ctcaaaataa tttcacaaat atcactaaca ttataataaa caaagaggag
+      241 gaaagaatat ttctaaacct gactaagcct ctatgtgagg taaactcatg gcacattcta
+      301 tcgaaagaca atgcaataag gataggggag gatgctcata tactagtcac aagggagccc
+      361 tatttatcct gtgatccgca aagctgtagg atgtttgctc tgagccaagg cacgacactc
+      421 agaggacggc atgcgaacgg aactatacat gacagaagcc cattcagagc tctcgtgagc
+      481 tgggaaatgg gtcaagcgcc cagtccatac aacgttaggg tcgaatgtat aggatggtca
+      541 agcacatcat gccacgatgg catatcaaga atgtcgatat gcatgtcggg gccaaacaac
+      601 aatgcgtcag cagtggtctg gtacgggggt aggccagtaa cagaaatccc atcatgggca
+      661 ggaaatattc tcagaactca ggaatcagaa tgcgtgtgtc ataaaggggt ctgtccagta
+      721 gtcatgacag atggcccagc aaataataga gcagcaacta agataattta tttcaaagag
+      781 gggaagatac agaaaattga agaattaaga gggaatgccc agcacattga ggaatgttca
+      841 tgctatgggg cagtaagggt aatcaaatgt gtgtgcaggg acaattggaa aggggcaaac
+      901 agaccagtaa tcactataga tcctgaaatg atgactcaca caagcaagta tttgtgctca
+      961 agggtattaa ccgatacaag tcgccccaat gatcccacta gcgggaactg tgatgctccg
+     1021 ataatagggg ggagcccaga tcctggggtg aaggggtttg cattcttgga tggagagaat
+     1081 tcatggcttg gaaggacaat tagcaaagac tccagatcag gctacgaaat attaaaggtc
+     1141 ccaaatgcag aaactgatac ccagtcaggg ccaacatcac accagataat tgtcaacaac
+     1201 ccaaactggt cgggatactc aggagcgttc atagactatt gggcaaacaa agagtgcttc
+     1261 aatccttgtt tttatgtgga actaatcaga gggagaccca aggagagtag tgtactgtgg
+     1321 acttcaaata gcattgtagc tctctgtgga tccaaagagc gattgggatc atggtcctgg
+     1381 cacgatggtg ctgagatcat ctactttaag tag
+//
+LOCUS       MT781549                 982 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 7 matrix protein 2 (M2) and matrix protein 1 (M1) genes,
+            complete cds.
+ACCESSION   MT781549
+VERSION     MT781549.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 982)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 982)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781549.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..982
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="7"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..982
+                     /gene="M2"
+     CDS             join(1..26,715..982)
+                     /gene="M2"
+                     /codon_start=1
+                     /product="matrix protein 2"
+                     /protein_id="QLJ85816.2"
+                     /translation="MSLLTEVETPTRNGWECRCSDSSDPLVIAASIIGILHLILWILD
+                     RLFLKCVYRRLKYGLKRGPSTEGVPESMREEYRQEQQSAVDVDYGHFVNIELE"
+     gene            1..759
+                     /gene="M1"
+     CDS             1..759
+                     /gene="M1"
+                     /codon_start=1
+                     /product="matrix protein 1"
+                     /protein_id="QLJ85815.2"
+                     /translation="MSLLTEVETYVLSIVPSGPLKAEIAQRLEDVFVGKNTDLEALME
+                     WLKTRPILSPLTKGILGVVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDRAVKLYRK
+                     LKREITFHGAKEVALSYSTGALACCMGLIYNRMGTVTTEVALGLVCATCEQIADSQHR
+                     SHRQIATTTNPLIRHENRMVLASTTAKAMEQMAGSSEQAAEAMEVASQARQMVQAMRT
+                     IGTHPSSSAGLRDDLLENLQAYQKRMGVQMQRFK"
+ORIGIN      
+        1 atgagtcttc taaccgaggt cgaaacgtac gttctctcta ttgtcccgtc aggccccctc
+       61 aaagccgaga tcgcgcagag acttgaagat gtctttgtag ggaagaacac cgatcttgag
+      121 gctctcatgg aatggctaaa gacaagacca atcctgtcac ctctgactaa ggggatttta
+      181 ggagttgtgt tcacgctcac cgtgcccagt gagcgaggac tgcagcgtag acgctttgtc
+      241 caaaatgccc taaatggaaa tggagaccca aacaatatgg acagggcagt caaactgtac
+      301 aggaaattaa agagagagat aacattccat ggggctaaag aagttgcact cagttattca
+      361 accggtgcac ttgcctgttg tatgggtctc atatacaaca ggatggggac ggtgaccaca
+      421 gaagtggcgt tgggcctagt gtgtgccacc tgtgagcaga ttgctgattc acagcatcgg
+      481 tctcacagac aaatagcaac caccaccaac ccactaatca gacatgaaaa cagaatggtg
+      541 ctggccagta ctacagctaa ggctatggag cagatggctg ggtcgagtga gcaggcagcg
+      601 gaagccatgg aggttgctag tcaggctagg cagatggtgc aggcgatgag gaccattgga
+      661 actcacccta gctccagtgc cggtctgaga gatgatctcc ttgaaaattt gcaggcctac
+      721 cagaaacgga tgggagtgca gatgcagcga ttcaagtgat cctctcgtta ttgccgcaag
+      781 tatcattggg atcttgcact tgatattgtg gattcttgat cgtcttttcc tcaaatgcgt
+      841 ttatcgtcgc cttaaatacg gtttgaaaag agggccttct acggaaggag tgcctgagtc
+      901 tatgagggaa gagtatcggc aggaacagca gagtgctgtg gatgttgact atggtcattt
+      961 tgtcaacata gagctggagt aa
+//
+LOCUS       MT781548                 840 bp    cRNA    linear   VRL 07-JAN-2022
+DEFINITION  Influenza A virus (A/white-tailed eagle/Denmark/4227-1/2018(H5N6))
+            segment 8 nuclear export protein (NEP) and nonstructural protein 1
+            (NS1) genes, complete cds.
+ACCESSION   MT781548
+VERSION     MT781548.2
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 840)
+  AUTHORS   Liang,Y. and Hjulsager,C.K.
+  TITLE     Molecular Characterization of Highly Pathogenic Avian Influenza
+            Viruses H5N6 Detected in Denmark, 2018-2019
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 840)
+  AUTHORS   Hjulsager,C.K. and Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2020) Infectious Disease Preparedness, Statens
+            Serum Institut, Artillerivej 5, Copenhagen 2300, Denmark
+COMMENT     On Jan 7, 2022 this sequence version replaced MT781548.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.02
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..840
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/white-tailed eagle/Denmark/4227-1/2018"
+                     /serotype="H5N6"
+                     /isolate="4227-1"
+                     /isolation_source="Pool of tracheal and cloacal samples"
+                     /host="white-tailed eagle"
+                     /db_xref="taxon:11320"
+                     /segment="8"
+                     /country="Denmark"
+                     /collection_date="09-Feb-2018"
+     gene            1..838
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+     CDS             join(1..30,503..838)
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+                     /note="nonstructural protein 2"
+                     /codon_start=1
+                     /product="nuclear export protein"
+                     /protein_id="QLJ85814.2"
+                     /translation="MDSNTMLSFQDILMRMSKMQLGSSSEDLNGMITQFGSLRLYRDS
+                     LGETVMRVGDLHSLQSRNGKWREQLGQKFEEIRWLIEEVRHRLKITENSFEQITFMQA
+                     LQLLLEVEQEIRTFSFQLI"
+     gene            1..654
+                     /gene="NS1"
+     CDS             1..654
+                     /gene="NS1"
+                     /codon_start=1
+                     /product="nonstructural protein 1"
+                     /protein_id="QLJ85813.2"
+                     /translation="MDSNTMLSFQVDCFLWYVRKRFADQELGDAPFLDRLRRDQKSLR
+                     GRGNTLGLGIETATRAGKQIVERILEEESDEALKITVTSSPSSHYLTDMTLEEMSRDW
+                     FMLMPKKKVAGSLCIKMDQAIMDKNIILKANFSVIFNRLEALILLRAFTEDGAIVGEI
+                     SPLPSFPGHTDEDVKNAIGVLIGGLEWNDNTVRVSETLQRFAWRNSNEGGRPPLPPK"
+ORIGIN      
+        1 atggattcca acactatgtt aagctttcag gtagattgct ttctttggta tgtccgcaaa
+       61 cgattcgcag accaagaact gggtgatgcc ccgttccttg accggcttcg ccgagatcag
+      121 aagtctttaa gaggaagagg caacactctt ggtctgggca tcgaaacagc tactcgtgcg
+      181 ggaaagcaga tagtggagcg aattctggag gaagaatctg atgaggcact taaaatcact
+      241 gttacttcaa gtccgtcttc acactaccta actgacatga ctcttgaaga aatgtcaagg
+      301 gactggttca tgctcatgcc caaaaagaaa gtggcaggtt cactttgcat caaaatggac
+      361 caggcaataa tggataaaaa catcatattg aaagcaaact tcagtgtaat ttttaaccgg
+      421 ctggaagctc taatattact tagagctttc acagaagacg gagcaattgt gggagagatc
+      481 tcaccgttac cttcttttcc aggacatact gatgaggatg tcaaaaatgc aattggggtc
+      541 ctcatcggag gacttgaatg gaatgataac acagttcggg tctctgagac tctacagaga
+      601 ttcgcttgga gaaacagtaa tgagggtggg agacctccac tccctccaaa gtagaaacgg
+      661 aaaatggaga gaacaattgg gtcagaagtt tgaagaaata agatggctga ttgaagaagt
+      721 gcgacataga ttaaagatta cagaaaatag cttcgaacag ataacgttta tgcaagcctt
+      781 acaactattg cttgaagtgg aacaagagat aagaactttc tcgtttcagc ttatttgatg
+//
