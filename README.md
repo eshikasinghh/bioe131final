@@ -1,10 +1,14 @@
 IMPORTANT: Please use Incognito Mode to view everything properly.
 # Link to Working Example of Database: https://eshikasinghh.github.io/bioe131final/
-To access our database, click the link above click "Launch Genome Browser". Start a new session by clicking "Linear Genome View", selecting the "flu_2022" assembly, and selecting "MT781550.2" to visualize the NA protein. Click "open", "open track selection", and select these options so you're screen looks like this:
+To access our database, click the link above click "Launch Genome Browser". Start a new session by clicking "Linear Genome View", selecting the "flu_2018" assembly, and selecting "MT781550.2" to visualize the NA protein. Click "open", "open track selection", and select these options so you're screen looks like this:
 <img width="1512" alt="Screenshot 2024-12-05 at 3 11 19 PM" src="https://github.com/user-attachments/assets/050a2872-2796-414b-b47b-d0f648ea95f1">
 Select "MT781554.2" to visualize the HA protein, "MT781552.2" to visualize the PB2 protein, and "MT781553.2" to visualize the PB1 protein. The track selection is the same as the screenshot, minus the dnds_NA track for these 3 proteins. 
 
-ALl screenshots of the 4 proteins will be in the "JBrowse_Screenshots" folder of our repository.
+Do the same for the year 2021 by selecting "flu_2021" assembly, and selecting "MZ235331.1" to visualize PB2, "MZ235332.1" to visualize PB1, "MZ235334.1" to visualize HA, and "MZ235336.1" to visualize NA. Select the reference sequence and .gff tracks.
+
+Do the same for the year 2022 by selecting "flu_2022" assembly, and selecting "LC775576.1" to visualize PB2, "LC775577.1" to visualize PB1, "LC775579.1" to visualize HA, and "LC775581.1" to visualize NA. Select the reference sequence and .gff tracks.
+
+ALl screenshots of the 4 proteins for the 3 years will be in the "JBrowse_Screenshots" folder of our repository.
 
 # BioE-131 Final. How to Set Up Our Data on JBrowse.
 ## 1. Platform Specific Setup
