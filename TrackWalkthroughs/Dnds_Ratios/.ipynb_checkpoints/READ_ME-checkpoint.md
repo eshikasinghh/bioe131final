@@ -63,8 +63,9 @@ conda install -c bioconda ucsc-wigtobigwig
 ### 2.2 Use the converter
 ```
 echo -e "MT781550.2\t1520" > chrom.sizes
-wigToBigWig dnds_NA_2022.wig chrom.sizes dnds_NA_2022.bw
 wigToBigWig dnds_NA_2018.wig chrom.sizes dnds_NA_2018.bw
+echo -e "LC775581.1\t1435" > chrom.sizes
+wigToBigWig dnds_NA_2022.wig chrom.sizes dnds_NA_2022.bw
 ```
 
 After successfully completing step 2, you should see 2 new BigWig files in this folder.
