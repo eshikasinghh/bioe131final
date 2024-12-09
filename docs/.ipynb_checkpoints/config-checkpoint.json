@@ -1,0 +1,230 @@
+{
+  "assemblies": [
+    
+    {
+      "name": "flu_2022",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "flu_2022-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "flu2023.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "flu2023.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "flu_2018",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "flu_2018-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "flu2022.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "flu2022.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "flu_2021",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "flu_2021-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "flu2021.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "flu2021.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    
+    {
+      "type": "FeatureTrack",
+      "trackId": "flu2023.gff",
+      "name": "flu2023.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "flu2023.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "flu2023.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "flu_2022"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "flu2022.gff",
+      "name": "flu2022.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "flu2022.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "flu2022.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "flu_2018"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "flu2021.gff",
+      "name": "flu2021.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "flu2021.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "flu2021.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "flu_2021"
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "pb2_conservation",
+      "name": "pb2_conservation",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "pb2_conservation.bw",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "flu_2018"
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "pb1_conservation",
+      "name": "pb1_conservation",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "pb1_conservation.bw",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "flu_2018"
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "HA_conservation",
+      "name": "HA_conservation",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "HA_conservation.bw",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "flu_2018"
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "NA_conservation",
+      "name": "NA_conservation",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "NA_conservation.bw",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "flu_2018"
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "dnds_NA",
+      "name": "dnds_NA",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "dnds_NA.bw",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "flu_2018"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "flu2023-index",
+      "ixFilePath": {
+        "uri": "trix/flu2023.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/flu2023.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/flu2023_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "flu_2022"
+      ]
+    }
+  ]
+}
