@@ -64,8 +64,6 @@ Use ls to make sure that it worked. You should see 4 new files in your tmp folde
 
 Lets visualize them now. For the purpose of being able to see all our comparision data in one place, you will be loading them onto flu2018 track. 
 
-You can choose a different year if you would like.
-
 In your terminal, make sure you are in the tmp folder
 
 ```
