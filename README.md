@@ -399,7 +399,10 @@ Open `http://yourhost/jbrowse2/` again in your web browser. For local hosting, t
 
 
 # Contributions 
-Anya: Visualized tracks on Jbrowse and wrote code and analysis for pairwise alignment in python.
+Anya: Visualized tracks on Jbrowse and wrote code and analysis for pairwise alignment of proteins. 
+
 Vibha: Used GenBank data to visualize different regions of our four proteins. 
+
 Eshika: Worked on mapping mutations to the functional regions of each of the four proteins. 
+
 Ria: Worked on the conservation scores for each protein and visualizing the ds/dN ratios and conservation scores.
