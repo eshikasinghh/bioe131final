@@ -396,3 +396,10 @@ jbrowse add-track flu_2018.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --asse
 ## 7.0 Use your genome browser to explore a gene of interest
 ### 7.1. Launch JBrowse2
 Open `http://yourhost/jbrowse2/` again in your web browser. For local hosting, the url will be `http://localhost:8080/jbrowse2`.There should now be several options in the main menu. Search for a gene in the "linear genome view" section, and you will see our flu_2022, flu_2021, and flu_2018 as dropdown options to select.
+
+
+# Contributions 
+Anya: Visualized tracks on Jbrowse and wrote code and analysis for pairwise alignment in python.
+Vibha: Used GenBank data to visualize different regions of our four proteins. 
+Eshika: Worked on mapping mutations to the functional regions of each of the four proteins. 
+Ria: Worked on the conservation scores for each protein and visualizing the ds/dN ratios and conservation scores.
