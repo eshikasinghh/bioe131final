@@ -22,9 +22,35 @@
             right: 0;
             bottom: 0;
             z-index: 1000;
+            overflow-y: auto;
         }
         #welcome-page.hidden {
             display: none;
+        }
+        .content-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c5282;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        h2 {
+            color: #4a5568;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #2d3748;
+            line-height: 1.8;
+            margin: 20px 0;
+            font-size: 1.1em;
+            text-align: justify;
+            padding: 0 20px;
         }
         .start-button {
             padding: 15px 30px;
@@ -35,21 +61,13 @@
             cursor: pointer;
             font-size: 1.1em;
             transition: all 0.3s ease;
-            margin-top: 20px;
+            margin-top: 30px;
             font-family: 'Source Sans Pro', sans-serif;
         }
         .start-button:hover {
             background-color: #4299e1;
             transform: translateY(-2px);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
         }
         .info-link {
             color: #2c5282;
@@ -65,17 +83,21 @@
 </head>
 <body style="overscroll-behavior:none">
     <div id="welcome-page">
-        <h1>BioE131 Final Project</h1>
-        <p>Our project explores how the Influenza A virus evolves in white-tailed eagles across different regions and years, specifically from 2018 to 2023. We're analyzing 4 key proteins, PB1, HA, NA, and PB2, to understand the virus's mutations and adaptations in birds. Using metrics such as mutation rates, conservation scores, and similarity scores, we aim to track how these changes impact the need for a new vaccine every year.</p>
-    
-        <p>We've created an easy to use JBrowse2 database that you can explore.
-            <a href="https://github.com/eshikasinghh/bioe131final/blob/main/README.md" 
-               class="info-link" 
-               target="_blank">Click here for detailed instructions</a>.
-        </p>
-    
-        <p>Ultimately, this work will help us better understand avian influenza and improve preparedness for future outbreaks.</p>
-        <button class="start-button" onclick="startJBrowse()">Launch Genome Browser</button>
+        <div class="content-wrapper">
+            <h1>BioE131 Final Project: Exploring Influenza A Evolution in White-Tailed Eagles</h1>
+            <h2>Team: VERA-Virus, Members: Anya Sikri, Eshika Singh, Ria Lakkimsetti, Vibha Yellamraju</h2>
+            
+            <p>Our project explores how the Influenza A virus evolves in white-tailed eagles across different regions and years, specifically from 2018 to 2023. We're analyzing 4 key proteins, PB1, HA, NA, and PB2, to understand the virus's mutations and adaptations in birds. Using metrics such as mutation rates, conservation scores, and similarity scores, we aim to track how these changes impact the need for a new vaccine every year.</p>
+        
+            <p>We've created an easy to use JBrowse2 database that you can explore.
+                <a href="https://github.com/eshikasinghh/bioe131final/blob/main/README.md" 
+                   class="info-link" 
+                   target="_blank">Click here for detailed instructions</a>.
+            </p>
+        
+            <p>Ultimately, this work will help us better understand avian influenza and improve preparedness for future outbreaks.</p>
+            <button class="start-button" onclick="startJBrowse()">Launch Genome Browser</button>
+        </div>
     </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
