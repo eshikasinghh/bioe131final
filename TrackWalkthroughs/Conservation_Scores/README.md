@@ -37,6 +37,9 @@ conda install -c bioconda ucsc-wigtobigwig
 ```
 
 ### 2.2 Use the converter
+
+Set the chrom sizes with the length of the sequences and location before converting. Then you can use wigToBigWig to convert them:
+
 ```
 echo -e "MT781552.2\t2295" > chrom.sizes
 wigToBigWig pb2_conservation.wig chrom.sizes pb2_conservation.bw
@@ -53,6 +56,8 @@ After successfully completing step 2, you should see 4 new files in this folder.
 
 ## 3 Download to local computer (only if you are on jupyter lab)
 
+### 3.1 If you are using jupyter lab
+
 In this step, you will add these BigWig files you generated to your local computer.
 
 1. Right click the BigWig(.bw) files and you should see an option "Copy Download Link". Click it
@@ -68,6 +73,20 @@ Replace nameofFile with ex: pb2_conservation.bw
 Do this for all 4 BigWig files
 
 Use ls to make sure that it worked. You should see 4 new files in your tmp folder
+
+### 3.2 If using Local desktop
+
+Move the files that you created to the tmp folder
+In the terminal make sure you are in the conservation_scores folder when running these commands
+
+```
+mv pb2_conservation.bw ~/tmp/pb2_conservation.bw
+mv pb1_conservation.bw ~/tmp/pb1_conservation.bw
+mv HA_conservation.bw ~/tmp/HA_conservation.bw
+mv NA_conservation.bw ~/tmp/NA_conservation.bw
+```
+
+Use ls to check if these 4 files are now in you tmp folder
 
 ## 4 Visualize on JBrowse
 
