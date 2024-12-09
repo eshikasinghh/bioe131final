@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3923067v1
+#!genome-build-accession NCBI_Assembly:GCA_039230675.1
+##sequence-region MZ235331.1 1 2293
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region MZ235332.1 1 2309
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region MZ235333.1 1 2171
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region MZ235334.1 1 1704
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region MZ235335.1 1 1529
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region MZ235336.1 1 1424
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region MZ235337.1 1 991
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+##sequence-region MZ235338.1 1 844
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+###
+MZ235331.1	Genbank	region	1	2293	.	+	.	ID=MZ235331.1:1..2293;Dbxref=taxon:11320;Name=1;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=1;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235331.1	Genbank	CDS	14	2293	.	+	0	ID=cds-QVM13806.1;Parent=gene-PB2;Dbxref=NCBI_GP:QVM13806.1;Name=QVM13806.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=QVM13806.1
+MZ235331.1	Genbank	gene	14	2293	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+MZ235332.1	Genbank	region	1	2309	.	+	.	ID=MZ235332.1:1..2309;Dbxref=taxon:11320;Name=2;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=2;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235332.1	Genbank	CDS	11	2284	.	+	0	ID=cds-QVM13807.1;Parent=gene-PB1;Dbxref=NCBI_GP:QVM13807.1;Name=QVM13807.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=QVM13807.1
+MZ235332.1	Genbank	gene	11	2284	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+MZ235332.1	Genbank	CDS	105	278	.	+	0	ID=cds-QVM13808.1;Parent=gene-PB1-F2;Dbxref=NCBI_GP:QVM13808.1;Name=QVM13808.1;gbkey=CDS;gene=PB1-F2;product=PB1-F2 protein;protein_id=QVM13808.1
+MZ235332.1	Genbank	gene	105	278	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding
+MZ235333.1	Genbank	region	1	2171	.	+	.	ID=MZ235333.1:1..2171;Dbxref=taxon:11320;Name=3;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=3;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235333.1	Genbank	CDS	10	2160	.	+	0	ID=cds-QVM13809.1;Parent=gene-PA;Dbxref=NCBI_GP:QVM13809.1;Name=QVM13809.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=QVM13809.1
+MZ235333.1	Genbank	CDS	10	579	.	+	0	ID=cds-QVM13810.1;Parent=gene-PA-X;Dbxref=NCBI_GP:QVM13810.1;Name=QVM13810.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QVM13810.1
+MZ235333.1	Genbank	gene	10	2160	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+MZ235333.1	Genbank	gene	10	769	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+MZ235333.1	Genbank	CDS	581	769	.	+	0	ID=cds-QVM13810.1;Parent=gene-PA-X;Dbxref=NCBI_GP:QVM13810.1;Name=QVM13810.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QVM13810.1
+MZ235334.1	Genbank	CDS	1	1704	.	+	0	ID=cds-QVM13811.1;Parent=gene-HA;Dbxref=NCBI_GP:QVM13811.1;Name=QVM13811.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=QVM13811.1
+MZ235334.1	Genbank	gene	1	1704	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+MZ235334.1	Genbank	region	1	1704	.	+	.	ID=MZ235334.1:1..1704;Dbxref=taxon:11320;Name=4;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=4;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235334.1	Genbank	signal_peptide_region_of_CDS	1	48	.	+	.	ID=id-QVM13811.1:1..16;Parent=cds-QVM13811.1;gbkey=Prot
+MZ235334.1	Genbank	mature_protein_region_of_CDS	49	1035	.	+	.	ID=id-QVM13811.1:17..345;Parent=cds-QVM13811.1;gbkey=Prot;product=HA1
+MZ235334.1	Genbank	mature_protein_region_of_CDS	1036	1701	.	+	.	ID=id-QVM13811.1:346..567;Parent=cds-QVM13811.1;gbkey=Prot;product=HA2
+MZ235335.1	Genbank	region	1	1529	.	+	.	ID=MZ235335.1:1..1529;Dbxref=taxon:11320;Name=5;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=5;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235335.1	Genbank	CDS	31	1527	.	+	0	ID=cds-QVM13812.1;Parent=gene-NP;Dbxref=NCBI_GP:QVM13812.1;Name=QVM13812.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=QVM13812.1
+MZ235335.1	Genbank	gene	31	1527	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+MZ235336.1	Genbank	region	1	1424	.	+	.	ID=MZ235336.1:1..1424;Dbxref=taxon:11320;Name=6;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=6;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235336.1	Genbank	CDS	6	1418	.	+	0	ID=cds-QVM13813.1;Parent=gene-NA;Dbxref=NCBI_GP:QVM13813.1;Name=QVM13813.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=QVM13813.1
+MZ235336.1	Genbank	gene	6	1418	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+MZ235337.1	Genbank	region	1	991	.	+	.	ID=MZ235337.1:1..991;Dbxref=taxon:11320;Name=7;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=7;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235337.1	Genbank	CDS	11	36	.	+	0	ID=cds-QVM13815.1;Parent=gene-M2;Dbxref=NCBI_GP:QVM13815.1;Name=QVM13815.1;gbkey=CDS;gene=M2;partial=true;product=matrix protein 2;protein_id=QVM13815.1
+MZ235337.1	Genbank	CDS	11	769	.	+	0	ID=cds-QVM13814.1;Parent=gene-M1;Dbxref=NCBI_GP:QVM13814.1;Name=QVM13814.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=QVM13814.1
+MZ235337.1	Genbank	gene	11	769	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+MZ235337.1	Genbank	gene	11	991	.	+	.	ID=gene-M2;Name=M2;end_range=991,.;gbkey=Gene;gene=M2;gene_biotype=protein_coding;partial=true
+MZ235337.1	Genbank	CDS	725	991	.	+	1	ID=cds-QVM13815.1;Parent=gene-M2;Dbxref=NCBI_GP:QVM13815.1;Name=QVM13815.1;end_range=991,.;gbkey=CDS;gene=M2;partial=true;product=matrix protein 2;protein_id=QVM13815.1
+MZ235338.1	Genbank	CDS	1	30	.	+	0	ID=cds-QVM13817.1;Parent=gene-NEP;Dbxref=NCBI_GP:QVM13817.1;Name=QVM13817.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QVM13817.1
+MZ235338.1	Genbank	CDS	1	693	.	+	0	ID=cds-QVM13816.1;Parent=gene-NS1;Dbxref=NCBI_GP:QVM13816.1;Name=QVM13816.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=QVM13816.1
+MZ235338.1	Genbank	gene	1	693	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+MZ235338.1	Genbank	gene	1	838	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+MZ235338.1	Genbank	region	1	844	.	+	.	ID=MZ235338.1:1..844;Dbxref=taxon:11320;Name=8;collection-date=03-Feb-2021;country=Japan: Hokkaido;gbkey=Src;isolate=20210127001;isolation-source=feces;mol_type=viral cRNA;nat-host=white-tailed eagle%3B Haliaeetus albicilla;segment=8;serotype=H5N8;strain=A/white-tailed eagle/Hokkaido/20210127001/2021
+MZ235338.1	Genbank	CDS	503	838	.	+	0	ID=cds-QVM13817.1;Parent=gene-NEP;Dbxref=NCBI_GP:QVM13817.1;Name=QVM13817.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QVM13817.1
