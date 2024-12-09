@@ -22,6 +22,7 @@ Analysis Link: https://docs.google.com/document/d/1i-5i3B3f8DPh2T6bKEDyjWTPoUeqK
 # How to plot dnds ratios for NA
 
 This folder contains the GenBank file for 2018's and 2022 strain.
+Clone this repo in jupyter lab or local desktop (jupyter lab recommended)
 
 ## 0 Retrieving the gbff file for analysis
 
@@ -56,11 +57,19 @@ Jbrowse is only able to visualize bigwig files so let's convert our wig files.
 
 Open up a new terminal and make sure you are in this folder. Then run these commands:
 
+### If on local desktop or AWS run these commands to make sure your system is compatible with the conversion package
+```
+conda create --name intel_env --platform osx-64
+conda activate intel_env
+```
+
 ### 2.1 Install Converter
 ```
 conda install -c bioconda ucsc-wigtobigwig
 ```
 ### 2.2 Use the converter
+
+Set the chrom.sizes to the length of the protein's sequences and their location before converting
 ```
 echo -e "MT781550.2\t1520" > chrom.sizes
 wigToBigWig dnds_NA_2018.wig chrom.sizes dnds_NA_2018.bw
@@ -70,7 +79,9 @@ wigToBigWig dnds_NA_2022.wig chrom.sizes dnds_NA_2022.bw
 
 After successfully completing step 2, you should see 2 new BigWig files in this folder.
 
-## 3 Download to local computer
+## 3 Download to local computer (if using jupyter lab)
+
+### 3.1 If using Jupyter Lab
 
 In this step, you will add these BigWig files you generated to your local computer.
 
@@ -82,11 +93,23 @@ Make sure to put the link inside quotes.
 ```
 wget -O nameofFile "download link"
 ```
-Replace nameofFile with ex: dnds_NA_2022.bw
+Replace nameofFile with correct file name
 
 Do this for all 2 BigWig files: dnds_NA_2022.bw, dnds_NA_2018.bw
 
 Use ls to make sure that it worked. You should see 2 new files in your tmp folder
+
+### 3.2 If using Local desktop
+
+Move the files that you created to the tmp folder
+In the terminal make sure you are in the dnds_ratios folder when running these commands
+
+```
+mv dnds_NA_2022.bw ~/tmp/dnds_NA_2022.bw
+mv dnds_NA_2018.bw ~/tmp/dnds_NA_2018.bw
+```
+
+Use ls to check if these 2 files are now in you tmp folder
 
 ## 4 Visualize on JBrowse
 
