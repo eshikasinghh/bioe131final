@@ -1,4 +1,18 @@
 IMPORTANT: Please use Incognito Mode to view everything properly.
+**Description of our Github:**
+
+3DProteinVisualization: Contains our instructions and visualizations of protein structures in 3D on Jbrowse. 
+
+BackupFiles: Repository for backup files to recreate any visualizations.
+
+JBrowseScreenshots: A folder containing screenshots taken from JBrowse demonstrating our configurations.
+
+MutationMapping: Contain files to map mutations to functional regions of the proteins HA, NA, PB1, and PB2.
+
+PairwiseAlignments: Pairwise alignments of four key influenza virus proteins over three year to compare two biological sequences for similarity.
+
+TrackWalkthroughs: Documentation related to track creation in Jbrowse. 
+
 # Link to Working Example of Database: https://eshikasinghh.github.io/bioe131final/
 To access our database, click the link above click "Launch Genome Browser". Start a new session by clicking "Linear Genome View", selecting the "flu_2018" assembly, and selecting "MT781550.2" to visualize the NA protein. Click "open", "open track selection", and select these options so you're screen looks like this:
 <img width="1512" alt="Screenshot 2024-12-05 at 3 11 19 PM" src="https://github.com/user-attachments/assets/050a2872-2796-414b-b47b-d0f648ea95f1">
