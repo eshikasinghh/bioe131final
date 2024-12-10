@@ -27,7 +27,7 @@ ALl screenshots of the 4 proteins for the 3 years will be in the "JBrowse_Screen
 
 To visualize our proteins in 3D, click "File" on the top left corner, "New Session", and launch the "Protein view". Now, click on the tool icon on the right side of the page. In the "Download Structure" tab, input the following PBD IDs: HA - 4N5Z, NA - 3CL2, PB1/PB2 - 3A1G. Click "Apply", and under "Quick Styles on the right hand side, click "Illustrative". You should now be able to see our proteins one at time!
 
-To visualize MSA (multiple-sequence alignment), go to the "BackupFiles" Folder and click on "Msa_Files". Download the four .fasta files. Go back to the JBrowse, click "File" on the top left corner, "New Session", and launch the "MsaView". Under "MSA file or URL", click on "File", and upload the .fasta file for whichever protein you'd like to see alignments for over the 3 years. Click "Open" and you will see our alignments!
+To visualize MSA (multiple-sequence alignment), go to the "TrackWalkthroughs" Folder and click on "Msa_Files". Download the four .fasta files. Go back to the JBrowse, click "File" on the top left corner, "New Session", and launch the "MsaView". Under "MSA file or URL", click on "File", and upload the .fasta file for whichever protein you'd like to see alignments for over the 3 years. Click "Open" and you will see our alignments!
 
 # BioE-131 Final. How to Set Up Our Data on JBrowse.
 ## 1. Platform Specific Setup
