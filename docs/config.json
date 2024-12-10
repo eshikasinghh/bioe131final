@@ -251,5 +251,27 @@
       "name": "MsaView",
       "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js"
     }
-  ]
+  ],
+  "defaultSession": {
+    "name": "MSA Session",
+    "views": [
+      {
+        "type": "MSAView",
+        "displayName": "Multiple Sequence Alignment",
+        "tracks": [
+          {
+            "type": "MSATrack",
+            "trackId": "my_alignment",
+            "adapter": {
+              "type": "MSAAdapter",
+              "fastaLocation": {
+                "uri": "docs/HA_aligned_sequences.fasta",
+                "locationType": "UriLocation"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
 }
