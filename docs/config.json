@@ -265,7 +265,7 @@
             "adapter": {
               "type": "MSAAdapter",
               "fastaLocation": {
-                "uri": "docs/HA_aligned_sequences.fasta",
+                "uri": "HA_aligned_sequences.fasta",
                 "locationType": "UriLocation"
               }
             }
